@@ -1,0 +1,41 @@
+name: Bug 报告
+description: 报告可复现的问题（请勿上传真实简历或密钥）
+title: "[Bug]: "
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: 感谢反馈。提交前请删除姓名、电话、邮箱、公司内部信息和 API Key。
+  - type: textarea
+    id: description
+    attributes:
+      label: 问题描述
+      description: 发生了什么？你预期看到什么？
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: 最小复现步骤
+      placeholder: |
+        1. 上传匿名化测试文件
+        2. 选择……
+        3. 点击……
+    validations:
+      required: true
+  - type: dropdown
+    id: environment
+    attributes:
+      label: 运行方式
+      options:
+        - Windows start.bat
+        - 本地 Streamlit
+        - Docker
+        - 其他
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: 已脱敏日志
+      render: shell

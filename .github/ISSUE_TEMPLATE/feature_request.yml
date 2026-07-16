@@ -1,0 +1,24 @@
+name: 功能建议
+description: 提议一个有明确用户价值的功能
+title: "[Feature]: "
+labels: [enhancement]
+body:
+  - type: textarea
+    id: user
+    attributes:
+      label: 谁会使用它？
+      description: 请描述目标用户和具体求职场景。
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: 它解决什么问题？
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: 建议方案
+    validations:
+      required: true
