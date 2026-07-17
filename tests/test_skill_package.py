@@ -34,6 +34,16 @@ class SkillPackageTests(unittest.TestCase):
         )
         self.assertIn("$cvopenmic", metadata)
 
+    def test_readme_defaults_to_cross_agent_install(self):
+        readme = (ROOT / "README.md").read_text(encoding="utf-8")
+        self.assertIn(
+            "npx skills add zihengniu9/CVOpenMic --skill cvopenmic -g\n",
+            readme,
+        )
+        self.assertIn("-a codex", readme)
+        self.assertIn("-a claude-code", readme)
+        self.assertIn("-a cursor", readme)
+
     def test_rubric_totals_one_hundred(self):
         rubric = (SKILL_DIR / "references" / "rubric.md").read_text(
             encoding="utf-8"

@@ -8,7 +8,7 @@
 
 **一个会看证据、不编经历、能直接改稿的简历诊断 Skill。**
 
-[![Codex Skill](https://img.shields.io/badge/Codex-Skill-111827)](skills/cvopenmic/SKILL.md)
+[![Agent Skill](https://img.shields.io/badge/Agent-Skill-111827)](skills/cvopenmic/SKILL.md)
 [![skills.sh](https://skills.sh/b/zihengniu9/CVOpenMic)](https://skills.sh/zihengniu9/CVOpenMic)
 [![CI](https://github.com/zihengniu9/CVOpenMic/actions/workflows/ci.yml/badge.svg)](https://github.com/zihengniu9/CVOpenMic/actions/workflows/ci.yml)
 [![License](https://img.shields.io/badge/license-MIT-f1c40f)](LICENSE)
@@ -19,16 +19,16 @@
 
 ## 一句话使用
 
-安装后，把简历和 JD 发给 Codex：
+安装后，把简历和 JD 发给你的 Agent：
 
 ```text
-用 $cvopenmic 直接开麦：诊断这份简历和目标 JD，指出最影响过筛的 3 个问题，再给我一版不编造事实的改写稿。
+使用 cvopenmic Skill 直接开麦：诊断这份简历和目标 JD，指出最影响过筛的 3 个问题，再给我一版不编造事实的改写稿。
 ```
 
 没有 JD 也能用：
 
 ```text
-用 $cvopenmic 看看这份简历。语气直接一点，先别润色，告诉我为什么它拿不到面试。
+使用 cvopenmic Skill 看看这份简历。语气直接一点，先别润色，告诉我为什么它拿不到面试。
 ```
 
 ## 安装
@@ -36,16 +36,31 @@
 ### 从 GitHub 安装
 
 ```bash
+npx skills add zihengniu9/CVOpenMic --skill cvopenmic -g
+```
+
+CLI 会自动检测本机已有的 Agent，并让你选择安装目标。也可以直接指定：
+
+```bash
+# Codex
 npx skills add zihengniu9/CVOpenMic --skill cvopenmic -g -a codex
+
+# Claude Code
+npx skills add zihengniu9/CVOpenMic --skill cvopenmic -g -a claude-code
+
+# Cursor
+npx skills add zihengniu9/CVOpenMic --skill cvopenmic -g -a cursor
+
+# Gemini CLI
+npx skills add zihengniu9/CVOpenMic --skill cvopenmic -g -a gemini-cli
+
+# GitHub Copilot
+npx skills add zihengniu9/CVOpenMic --skill cvopenmic -g -a github-copilot
 ```
 
-也可以把 [`skills/cvopenmic`](skills/cvopenmic) 文件夹复制到 Codex 的 skills 目录：
+支持 Agent 包括 Codex、Claude Code、Cursor、Gemini CLI、GitHub Copilot、OpenCode、Windsurf 等。安装后重新打开对应 Agent，在提示词中说“使用 cvopenmic Skill”即可；支持 `$skill-name` 语法的客户端也可以写 `$cvopenmic`。
 
-```text
-~/.codex/skills/cvopenmic
-```
-
-安装后重新打开 Codex，在提示词中写 `$cvopenmic` 即可显式调用。
+> [`agents/openai.yaml`](skills/cvopenmic/agents/openai.yaml) 只提供 Codex 的展示名称和默认提示词。其他 Agent 会忽略它，核心工作流仍由通用的 [`SKILL.md`](skills/cvopenmic/SKILL.md) 提供。
 
 ## 为什么它更像面试官，而不是文案工具
 
