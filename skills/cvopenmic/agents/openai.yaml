@@ -1,0 +1,4 @@
+interface:
+  display_name: "简历开麦"
+  short_description: "基于证据的中英文简历诊断、JD匹配与事实安全改写助手"
+  default_prompt: "Use $cvopenmic to review this resume against the target job and rewrite it without inventing facts."
