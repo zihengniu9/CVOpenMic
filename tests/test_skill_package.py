@@ -67,9 +67,33 @@ class SkillPackageTests(unittest.TestCase):
             "assets/workflow.svg",
             "assets/modules.svg",
             "assets/framework.svg",
+            "assets/bazi-lens.svg",
         ):
             self.assertTrue((ROOT / relative).is_file(), relative)
             self.assertIn(relative, readme)
+        self.assertIn("八字职业镜像", readme)
+
+    def test_readme_visuals_keep_the_restrained_engineering_system(self):
+        for asset in (
+            "brand-hero.svg",
+            "workflow.svg",
+            "modules.svg",
+            "framework.svg",
+            "bazi-lens.svg",
+        ):
+            svg = (ROOT / "assets" / asset).read_text(encoding="utf-8")
+            for banned in (
+                "<foreignObject",
+                "<script",
+                "<filter",
+                "<linearGradient",
+                "<radialGradient",
+                'href="http',
+                "xlink:href",
+            ):
+                self.assertNotIn(banned, svg, f"{asset}: {banned}")
+            self.assertIn("#050508", svg)
+            self.assertIn("#6ABFFF", svg)
 
     def test_rubric_totals_one_hundred(self):
         rubric = (SKILL_DIR / "references" / "rubric.md").read_text(
@@ -85,7 +109,8 @@ class SkillPackageTests(unittest.TestCase):
         )
         self.assertIn("explicit opt-in", skill)
         self.assertIn("Do not let it affect", skill)
-        self.assertIn("较顺势 / 中性 / 有张力", bridge)
+        self.assertIn("相合信号 / 待验证 / 存在张力", bridge)
+        self.assertIn("八字职业镜像", skill)
         self.assertIn("Do not use birth information", bridge)
 
     def test_bazi_module_is_self_contained_and_minimal(self):

@@ -29,7 +29,7 @@ Read [references/bazi-career.md](references/bazi-career.md) only when the user e
 8. Build rewritten bullets from supported evidence using the pattern reference. Treat every missing field as a question or explicit placeholder, never as permission to complete a familiar-looking example.
 9. Run the delivery checklist and the architecture checklist before presenting a final resume. Confirm that every source education entry and work entry is either represented or explicitly listed as an intentional omission approved by the user. For file delivery, create an editable DOCX as the canonical source, then render that DOCX to PDF and page images for visual QA. Apply later edits to the DOCX and regenerate the PDF; never maintain divergent Word and PDF copy. Always choose the page count from the actual content and reject layouts with a large unused lower half.
 
-## Optional Bazi career reflection
+## Optional Bazi career mirror
 
 Run this module only with the user's explicit opt-in. Keep it separate from evidence-based job matching.
 
@@ -37,7 +37,7 @@ Run this module only with the user's explicit opt-in. Keep it separate from evid
 2. Keep CVOpenMic self-contained. Do not ask the user to install or invoke another skill. Collect only the minimum charting inputs: Gregorian birth date, local birth time, and birth city. Do not request name, former name, alive/deceased status, health, romance, wealth, luck cycles, or historical-event validation for this use case.
 3. Use a reliable calendar or ephemeris capability to obtain the four pillars and a concise summary of day-master strength, five-element balance, useful elements, and major ten-god tendencies. Account for solar-term boundaries and flag possible true-solar-time boundary changes. If reliable charting is unavailable, accept a chart from the user; never improvise a chart from memory.
 4. Translate the chart only into reflective work-style dimensions defined in the reference, then compare those dimensions with the actual target role environment and the candidate's demonstrated experience. Do not infer competence, integrity, intelligence, employability, or future success.
-5. Present the result as `传统文化职业偏好参考`, using `较顺势 / 中性 / 有张力` rather than a numeric score or a deterministic suitable/unsuitable verdict.
+5. Present the result as `八字职业镜像`, using `相合信号 / 待验证 / 存在张力` rather than a numeric score or a deterministic suitable/unsuitable verdict.
 6. Never add Bazi-derived claims to the resume, cover letter, or interview script.
 7. Do not perform this analysis for an employer, recruiter, or manager evaluating another person. Do not let it affect ranking, screening, hiring, firing, compensation, or promotion advice.
 
@@ -63,7 +63,7 @@ Unless the user asks for another format, return these sections in this order:
 6. `安全改写版` — provide a complete copy-ready resume when requested or clearly useful. Include the full architecture from the source, especially education and work history; do not return only a summary and selected highlights.
 7. `只需确认` — optional; ask no more than two bundled, material questions after delivering value. Omit this section when placeholders or conservative wording are sufficient.
 8. `事实安全说明` — list placeholders, unresolved conflicts, and any source facts intentionally omitted; keep it brief when there are none.
-9. `传统文化职业偏好参考` — include only after explicit opt-in; keep it outside the scorecard and decision recommendation.
+9. `八字职业镜像` — include only after explicit opt-in; frame traditional symbols as work-style hypotheses that must be checked against real experience, and keep the module outside the scorecard and decision recommendation.
 
 ## Interaction rule
 
