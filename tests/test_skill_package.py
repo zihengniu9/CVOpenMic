@@ -2,6 +2,7 @@
 
 from pathlib import Path
 import re
+import struct
 import unittest
 
 
@@ -64,7 +65,7 @@ class SkillPackageTests(unittest.TestCase):
     def test_readme_visuals_are_repository_native(self):
         readme = (ROOT / "README.md").read_text(encoding="utf-8")
         for relative in (
-            "assets/brand-hero.svg",
+            "assets/brand-hero.png",
             "assets/modules.svg",
         ):
             self.assertTrue((ROOT / relative).is_file(), relative)
@@ -74,20 +75,20 @@ class SkillPackageTests(unittest.TestCase):
             "assets/framework.svg",
             "assets/bazi-lens.svg",
             "assets/cvopenmic-hero.webp",
+            "assets/brand-hero.svg",
+            "assets/hero-scene.png",
         ):
             self.assertNotIn(removed, readme)
             self.assertFalse((ROOT / removed).exists(), removed)
-        self.assertTrue((ROOT / "assets/hero-scene.png").is_file())
-        hero = (ROOT / "assets/brand-hero.svg").read_text(encoding="utf-8")
-        self.assertIn('href="hero-scene.png"', hero)
         self.assertEqual(readme.count('<img src="assets/'), 2)
         self.assertIn("八字职业镜像", readme)
 
+        hero = (ROOT / "assets/brand-hero.png").read_bytes()
+        self.assertTrue(hero.startswith(b"\x89PNG\r\n\x1a\n"))
+        self.assertEqual(struct.unpack(">II", hero[16:24]), (1400, 500))
+
     def test_readme_visuals_are_self_contained_and_safe(self):
-        for asset in (
-            "brand-hero.svg",
-            "modules.svg",
-        ):
+        for asset in ("modules.svg",):
             svg = (ROOT / "assets" / asset).read_text(encoding="utf-8")
             for banned in (
                 "<foreignObject",

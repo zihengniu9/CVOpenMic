@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/brand-hero.svg" alt="简历开麦：把经历说成人话，把优势写成证据" width="100%">
+<img src="assets/brand-hero.png" alt="简历开麦：把经历说成人话，把优势写成证据" width="100%">
 
 # 把经历说成人话，把优势写成证据。
 
