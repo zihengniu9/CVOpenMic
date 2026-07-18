@@ -1,0 +1,171 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="980" viewBox="0 0 1400 980" role="img" aria-labelledby="title desc">
+  <title id="title">简历开麦模块地图</title>
+  <desc id="desc">六个核心模块包括材料解析与隐私、岗位路由、证据评分、毒舌诊断、事实安全改写和 Word PDF 交付，另有不参与评分的可选八字职业反思。</desc>
+  <defs>
+    <linearGradient id="top" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0A2235"/>
+      <stop offset="1" stop-color="#15576A"/>
+    </linearGradient>
+    <style>
+      text { font-family: "Microsoft YaHei", "PingFang SC", Arial, sans-serif; }
+      .title { font-size: 25px; font-weight: 900; fill: #102A43; }
+      .body { font-size: 17px; fill: #526D82; }
+      .tag { font-size: 14px; font-weight: 800; fill: #24546A; }
+      .index { font-size: 18px; font-weight: 900; fill: #FFFFFF; }
+    </style>
+  </defs>
+
+  <rect width="1400" height="980" rx="30" fill="#F5F8FA"/>
+  <rect width="1400" height="166" rx="30" fill="url(#top)"/>
+  <rect y="138" width="1400" height="28" fill="url(#top)"/>
+  <text x="64" y="66" font-size="36" font-weight="900" fill="#FFFFFF">一个 Skill，六个核心模块</text>
+  <text x="64" y="106" font-size="19" font-weight="600" fill="#B9D7DE">从材料进入，到可投递文件离开；每个模块都有清晰边界</text>
+  <g transform="translate(1110 45)">
+    <rect width="226" height="58" rx="29" fill="#2DD4BF"/>
+    <text x="113" y="37" text-anchor="middle" font-size="19" font-weight="900" fill="#0A2A38">简历开麦 · CVOpenMic</text>
+  </g>
+
+  <g transform="translate(54 208)">
+    <rect width="406" height="250" rx="24" fill="#FFFFFF" stroke="#C9D9E2" stroke-width="2"/>
+    <circle cx="42" cy="42" r="22" fill="#557C91"/>
+    <text x="42" y="49" text-anchor="middle" class="index">01</text>
+    <g transform="translate(305 26)">
+      <path d="M0 0 H48 L66 18 V68 H0 Z" fill="#E7EEF2" stroke="#557C91" stroke-width="2"/>
+      <path d="M48 0 V18 H66" fill="none" stroke="#557C91" stroke-width="2"/>
+      <path d="M13 31 H52 M13 43 H52 M13 55 H39" stroke="#557C91" stroke-width="4" stroke-linecap="round"/>
+      <path d="M50 55 Q50 38 66 38 Q82 38 82 55 V69 H50 Z" fill="#2DD4BF" stroke="#11665D" stroke-width="2"/>
+      <path d="M57 38 V31 Q57 22 66 22 Q75 22 75 31 V38" fill="none" stroke="#11665D" stroke-width="3"/>
+    </g>
+    <text x="30" y="104" class="title">材料解析与隐私</text>
+    <text x="30" y="139" class="body">读取简历、JD 与补充材料，</text>
+    <text x="30" y="166" class="body">先去敏感信息，再进入分析。</text>
+    <g transform="translate(30 199)">
+      <rect width="98" height="30" rx="15" fill="#E8F1F5"/>
+      <text x="49" y="21" text-anchor="middle" class="tag">PDF/DOCX</text>
+      <rect x="110" width="92" height="30" rx="15" fill="#E7F8F4"/>
+      <text x="156" y="21" text-anchor="middle" class="tag">隐私优先</text>
+    </g>
+  </g>
+
+  <g transform="translate(497 208)">
+    <rect width="406" height="250" rx="24" fill="#FFFFFF" stroke="#A7DED8" stroke-width="2"/>
+    <circle cx="42" cy="42" r="22" fill="#2AAE9F"/>
+    <text x="42" y="49" text-anchor="middle" class="index">02</text>
+    <g transform="translate(304 28)">
+      <circle cx="34" cy="18" r="12" fill="#DDF7F2" stroke="#2AAE9F" stroke-width="2"/>
+      <path d="M34 30 V45 M34 45 H5 M34 45 H63 M5 45 V63 M63 45 V63" fill="none" stroke="#2AAE9F" stroke-width="4" stroke-linecap="round"/>
+      <circle cx="5" cy="68" r="10" fill="#FFCC66"/>
+      <circle cx="63" cy="68" r="10" fill="#C7F464"/>
+    </g>
+    <text x="30" y="104" class="title">目标岗位路由</text>
+    <text x="30" y="139" class="body">识别岗位语言与能力权重，</text>
+    <text x="30" y="166" class="body">让同一经历说到招聘方心里。</text>
+    <g transform="translate(30 199)">
+      <rect width="98" height="30" rx="15" fill="#E7F8F4"/>
+      <text x="49" y="21" text-anchor="middle" class="tag">AI 策略</text>
+      <rect x="110" width="110" height="30" rx="15" fill="#F4F8E8"/>
+      <text x="165" y="21" text-anchor="middle" class="tag">产品 / 数据</text>
+    </g>
+  </g>
+
+  <g transform="translate(940 208)">
+    <rect width="406" height="250" rx="24" fill="#FFFFFF" stroke="#C9D9E2" stroke-width="2"/>
+    <circle cx="42" cy="42" r="22" fill="#3D6F8A"/>
+    <text x="42" y="49" text-anchor="middle" class="index">03</text>
+    <g transform="translate(297 28)">
+      <rect x="0" y="49" width="15" height="27" rx="5" fill="#B7CAD4"/>
+      <rect x="25" y="34" width="15" height="42" rx="5" fill="#7FA7B6"/>
+      <rect x="50" y="17" width="15" height="59" rx="5" fill="#3D6F8A"/>
+      <rect x="75" y="0" width="15" height="76" rx="5" fill="#2DD4BF"/>
+      <path d="M5 28 L31 22 L56 9 L82 4" fill="none" stroke="#FF6B57" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <text x="30" y="104" class="title">证据账本与评分</text>
+    <text x="30" y="139" class="body">区分事实、推断、缺口和冲突，</text>
+    <text x="30" y="166" class="body">用统一量表确定修改优先级。</text>
+    <g transform="translate(30 199)">
+      <rect width="114" height="30" rx="15" fill="#E8F1F5"/>
+      <text x="57" y="21" text-anchor="middle" class="tag">100 分量表</text>
+      <rect x="126" width="100" height="30" rx="15" fill="#FFF3E0"/>
+      <text x="176" y="21" text-anchor="middle" class="tag">可追溯</text>
+    </g>
+  </g>
+
+  <g transform="translate(54 494)">
+    <rect width="406" height="250" rx="24" fill="#FFFFFF" stroke="#FFC4B9" stroke-width="2"/>
+    <circle cx="42" cy="42" r="22" fill="#FF6B57"/>
+    <text x="42" y="49" text-anchor="middle" class="index">04</text>
+    <g transform="translate(299 25)">
+      <path d="M10 7 H65 Q78 7 78 20 V50 Q78 63 65 63 H44 L27 77 V63 H10 Q0 63 0 50 V20 Q0 7 10 7 Z" fill="#FFE6E1" stroke="#FF6B57" stroke-width="2"/>
+      <rect x="31" y="18" width="15" height="26" rx="7" fill="#FF6B57"/>
+      <path d="M24 39 Q24 54 38 54 Q53 54 53 39" fill="none" stroke="#A63C30" stroke-width="4" stroke-linecap="round"/>
+    </g>
+    <text x="30" y="104" class="title">毒舌开麦诊断</text>
+    <text x="30" y="139" class="body">先提炼亮点，再指出真正硬伤，</text>
+    <text x="30" y="166" class="body">不绕弯，也不只给空泛评价。</text>
+    <g transform="translate(30 199)">
+      <rect width="108" height="30" rx="15" fill="#FFF0ED"/>
+      <text x="54" y="21" text-anchor="middle" class="tag">结论先行</text>
+      <rect x="120" width="108" height="30" rx="15" fill="#FFF0ED"/>
+      <text x="174" y="21" text-anchor="middle" class="tag">问题分级</text>
+    </g>
+  </g>
+
+  <g transform="translate(497 494)">
+    <rect width="406" height="250" rx="24" fill="#FFFFFF" stroke="#F0D08B" stroke-width="2"/>
+    <circle cx="42" cy="42" r="22" fill="#E7A420"/>
+    <text x="42" y="49" text-anchor="middle" class="index">05</text>
+    <g transform="translate(302 25)">
+      <path d="M5 68 L16 43 L58 1 L79 22 L37 64 L12 75 Z" fill="#FFF2CD" stroke="#D99112" stroke-width="2"/>
+      <path d="M58 1 L79 22 M16 43 L37 64" stroke="#D99112" stroke-width="4"/>
+      <path d="M2 10 H39 M2 23 H31" stroke="#7FA7B6" stroke-width="5" stroke-linecap="round"/>
+    </g>
+    <text x="30" y="104" class="title">事实安全改写</text>
+    <text x="30" y="139" class="body">给出可直接替换的完整表述，</text>
+    <text x="30" y="166" class="body">没有证据的数据一律标记待补。</text>
+    <g transform="translate(30 199)">
+      <rect width="110" height="30" rx="15" fill="#FFF3E0"/>
+      <text x="55" y="21" text-anchor="middle" class="tag">不编经历</text>
+      <rect x="122" width="112" height="30" rx="15" fill="#FFF3E0"/>
+      <text x="178" y="21" text-anchor="middle" class="tag">可直接粘贴</text>
+    </g>
+  </g>
+
+  <g transform="translate(940 494)">
+    <rect width="406" height="250" rx="24" fill="#FFFFFF" stroke="#C7E785" stroke-width="2"/>
+    <circle cx="42" cy="42" r="22" fill="#82B72D"/>
+    <text x="42" y="49" text-anchor="middle" class="index">06</text>
+    <g transform="translate(294 26)">
+      <path d="M0 0 H51 L69 18 V72 H0 Z" fill="#E9F0F4" stroke="#557C91" stroke-width="2"/>
+      <path d="M51 0 V18 H69" fill="none" stroke="#557C91" stroke-width="2"/>
+      <text x="34" y="50" text-anchor="middle" font-size="21" font-weight="900" fill="#3D6F8A">W</text>
+      <circle cx="76" cy="59" r="21" fill="#C7F464" stroke="#5E8A1D" stroke-width="2"/>
+      <path d="M67 59 L74 66 L86 51" fill="none" stroke="#365914" stroke-width="4" stroke-linecap="round"/>
+    </g>
+    <text x="30" y="104" class="title">Word / PDF 交付</text>
+    <text x="30" y="139" class="body">Word 是可编辑源文件，PDF 用来</text>
+    <text x="30" y="166" class="body">预览分页、留白与最终投递效果。</text>
+    <g transform="translate(30 199)">
+      <rect width="114" height="30" rx="15" fill="#F0F8DD"/>
+      <text x="57" y="21" text-anchor="middle" class="tag">单栏 ATS</text>
+      <rect x="126" width="112" height="30" rx="15" fill="#F0F8DD"/>
+      <text x="182" y="21" text-anchor="middle" class="tag">视觉质检</text>
+    </g>
+  </g>
+
+  <g transform="translate(54 792)">
+    <rect width="1292" height="134" rx="24" fill="#0D2B42" stroke="#2F6074" stroke-width="2" stroke-dasharray="9 8"/>
+    <g transform="translate(28 26)">
+      <circle cx="39" cy="39" r="38" fill="#173F56" stroke="#FFCC66" stroke-width="2"/>
+      <circle cx="39" cy="39" r="22" fill="none" stroke="#FFCC66" stroke-width="2"/>
+      <path d="M39 7 V71 M7 39 H71 M16 16 L62 62 M62 16 L16 62" stroke="#FFCC66" stroke-width="2" opacity="0.8"/>
+      <circle cx="39" cy="39" r="6" fill="#FFCC66"/>
+    </g>
+    <text x="128" y="48" font-size="23" font-weight="900" fill="#FFFFFF">可选模块：八字职业反思</text>
+    <text x="128" y="80" font-size="17" fill="#B9CFDA">把传统命理语言转译为工作环境、协作方式与风险偏好的自我反思。</text>
+    <g transform="translate(900 35)">
+      <rect width="350" height="64" rx="18" fill="#193D51" stroke="#FFCC66"/>
+      <text x="175" y="27" text-anchor="middle" font-size="16" font-weight="900" fill="#FFDC8A">不进评分 · 不进简历</text>
+      <text x="175" y="49" text-anchor="middle" font-size="14" fill="#D4E2E8">不代替招聘判断，也不作确定性预测</text>
+    </g>
+  </g>
+</svg>
