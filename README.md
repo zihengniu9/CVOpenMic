@@ -8,6 +8,8 @@
 
 **一个会看证据、不编经历、能直接改稿的简历诊断 Skill。**
 
+现在还可以选配八字职业偏好参考：看命盘与工作方式是否“顺势”，但不让命理替你做决定。
+
 [![Agent Skill](https://img.shields.io/badge/Agent-Skill-111827)](skills/cvopenmic/SKILL.md)
 [![skills.sh](https://skills.sh/b/zihengniu9/CVOpenMic)](https://skills.sh/zihengniu9/CVOpenMic)
 [![CI](https://github.com/zihengniu9/CVOpenMic/actions/workflows/ci.yml/badge.svg)](https://github.com/zihengniu9/CVOpenMic/actions/workflows/ci.yml)
@@ -60,6 +62,17 @@ npx skills add zihengniu9/CVOpenMic --skill cvopenmic -g -a github-copilot
 
 支持 Agent 包括 Codex、Claude Code、Cursor、Gemini CLI、GitHub Copilot、OpenCode、Windsurf 等。安装后重新打开对应 Agent，在提示词中说“使用 cvopenmic Skill”即可；支持 `$skill-name` 语法的客户端也可以写 `$cvopenmic`。
 
+### Tencent WorkBuddy
+
+WorkBuddy 原生支持 `SKILL.md`。当前通用 Skills CLI 尚未提供 `-a workbuddy` 标识，请在 WorkBuddy 的技能页导入本仓库，或手动复制：
+
+```text
+来源：CVOpenMic/skills/cvopenmic/
+目标：~/.workbuddy/skills/cvopenmic/
+```
+
+重启 WorkBuddy 后，在技能栏启用 `cvopenmic`，然后直接说“使用 cvopenmic 诊断这份简历”即可。Skill 本体不依赖 Codex、DeepSeek API 或 Streamlit。
+
 > [`agents/openai.yaml`](skills/cvopenmic/agents/openai.yaml) 只提供 Codex 的展示名称和默认提示词。其他 Agent 会忽略它，核心工作流仍由通用的 [`SKILL.md`](skills/cvopenmic/SKILL.md) 提供。
 
 ## 为什么它更像面试官，而不是文案工具
@@ -71,6 +84,18 @@ npx skills add zihengniu9/CVOpenMic --skill cvopenmic -g -a github-copilot
 | 给一堆泛泛建议 | 每个重点问题都附原文依据和明确动作 |
 | 关键词越多越好 | 区分“已证明、部分证明、未证明” |
 | 只交付点评 | 可继续追问事实并生成完整安全改写版 |
+
+## 可选联动：八字看工作方式
+
+如果同时安装 [`jinchenma94/bazi-skill`](https://github.com/jinchenma94/bazi-skill)，可以这样提问：
+
+```text
+使用 cvopenmic 分析这份简历和 JD；再调用 bazi，从传统文化角度看看我的工作方式与这个岗位是否顺势。两部分必须分开，不要让八字影响简历评分。
+```
+
+CVOpenMic 只会把命盘转译成可验证的工作偏好问题，例如：你是否更喜欢明确规则、独立决策、创作表达、客户结果或研究学习。输出使用 `较顺势 / 中性 / 有张力`，不会给八字打“录用分”，也不会断言你命中注定适合或不适合某份工作。
+
+> 该功能仅供传统文化学习与娱乐参考。出生时间、性别和出生地属于敏感个人信息，只有用户主动选择后才收集；禁止用于招聘者评价候选人。
 
 ## 固定输出
 

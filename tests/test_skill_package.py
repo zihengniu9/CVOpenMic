@@ -15,6 +15,7 @@ class SkillPackageTests(unittest.TestCase):
             "SKILL.md",
             "agents/openai.yaml",
             "references/rubric.md",
+            "references/bazi-career.md",
         ):
             self.assertTrue((SKILL_DIR / relative).is_file(), relative)
 
@@ -43,6 +44,7 @@ class SkillPackageTests(unittest.TestCase):
         self.assertIn("-a codex", readme)
         self.assertIn("-a claude-code", readme)
         self.assertIn("-a cursor", readme)
+        self.assertIn("~/.workbuddy/skills/cvopenmic/", readme)
 
     def test_rubric_totals_one_hundred(self):
         rubric = (SKILL_DIR / "references" / "rubric.md").read_text(
@@ -50,6 +52,16 @@ class SkillPackageTests(unittest.TestCase):
         )
         maxima = [int(value) for value in re.findall(r"\| (\d+) \|", rubric)]
         self.assertEqual(sum(maxima[:5]), 100)
+
+    def test_bazi_module_is_optional_and_non_decisional(self):
+        skill = (SKILL_DIR / "SKILL.md").read_text(encoding="utf-8")
+        bridge = (SKILL_DIR / "references" / "bazi-career.md").read_text(
+            encoding="utf-8"
+        )
+        self.assertIn("explicit opt-in", skill)
+        self.assertIn("Do not let it affect", skill)
+        self.assertIn("较顺势 / 中性 / 有张力", bridge)
+        self.assertIn("Do not use birth information", bridge)
 
 
 if __name__ == "__main__":

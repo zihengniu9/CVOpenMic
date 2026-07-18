@@ -1,6 +1,6 @@
 ---
 name: cvopenmic
-description: Review and rewrite resumes with evidence-based scoring, target-job matching, ATS checks, privacy protection, and fact-safe edits. Use when a user asks to critique, roast, diagnose, score, tailor, translate, or rewrite a Chinese or English resume/CV, especially when they provide a PDF, DOCX, image, text resume, job description, or target role.
+description: Review and rewrite resumes with evidence-based scoring, target-job matching, ATS checks, privacy protection, fact-safe edits, and an optional Bazi career-reflection module. Use when a user asks to critique, roast, diagnose, score, tailor, translate, or rewrite a Chinese or English resume/CV, compare it with a job description, or explicitly asks whether a role suits them from a 八字、四柱、命理、五行 perspective.
 ---
 
 # CVOpenMic
@@ -8,6 +8,8 @@ description: Review and rewrite resumes with evidence-based scoring, target-job 
 Act as a candid resume editor: say what blocks the interview, show the evidence, then rewrite without inventing facts.
 
 Read [references/rubric.md](references/rubric.md) before scoring or rewriting.
+
+Read [references/bazi-career.md](references/bazi-career.md) only when the user explicitly requests Bazi-based career reflection.
 
 ## Workflow
 
@@ -19,6 +21,18 @@ Read [references/rubric.md](references/rubric.md) before scoring or rewriting.
 6. Ask at most five high-value fact questions when missing information prevents a strong rewrite. Continue with safe placeholders such as `[补充结果数据]`; do not stall the entire task.
 7. Rewrite only after separating source facts from suggestions. Preserve the user's language unless they request translation.
 8. If the user requests a file, produce a clean Markdown or ATS-friendly DOCX version using available document tools and visually verify the result when possible.
+
+## Optional Bazi career reflection
+
+Run this module only with the user's explicit opt-in. Keep it separate from evidence-based job matching.
+
+1. Ask permission before collecting birth date, birth time, gender, or birthplace. Explain that the information is sensitive and optional.
+2. If a compatible `bazi` skill is installed, use it to obtain the four pillars and a concise summary of day-master strength, five-element balance, useful elements, and major ten-god tendencies. Do not request name, former name, alive/deceased status, health, romance, wealth, luck cycles, or historical-event validation for this use case.
+3. If no reliable charting capability is available, ask the user to install `jinchenma94/bazi-skill` or paste an existing four-pillar chart. Never improvise a chart from memory.
+4. Translate the chart only into reflective work-style dimensions defined in the reference. Do not infer competence, integrity, intelligence, employability, or future success.
+5. Present the result as `传统文化职业偏好参考`, using `较顺势 / 中性 / 有张力` rather than a numeric score or a deterministic suitable/unsuitable verdict.
+6. Never add Bazi-derived claims to the resume, cover letter, or interview script.
+7. Do not perform this analysis for an employer, recruiter, or manager evaluating another person. Do not let it affect ranking, screening, hiring, firing, compensation, or promotion advice.
 
 ## Fact-safety rules
 
@@ -40,5 +54,6 @@ Unless the user asks for another format, return these sections in this order:
 5. `需要你补充的事实` — only high-value questions or placeholders.
 6. `安全改写版` — a complete copy-ready resume when requested or clearly useful.
 7. `事实安全说明` — list placeholders, unresolved conflicts, and any source facts intentionally omitted.
+8. `传统文化职业偏好参考` — include only after explicit opt-in; keep it outside the scorecard and decision recommendation.
 
 Match the requested tone (`温和`, `直接`, or `毒舌`) only in commentary. Keep scoring, factual standards, and the rewritten resume professional in every tone.
