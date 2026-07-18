@@ -47,7 +47,8 @@ class SkillPackageTests(unittest.TestCase):
 
     def test_readme_defaults_to_cross_agent_install(self):
         readme = (ROOT / "README.md").read_text(encoding="utf-8")
-        self.assertIn("# 简历开麦", readme)
+        self.assertIn("# 把经历说成人话，把优势写成证据。", readme)
+        self.assertIn("简历开麦 · 先提炼，再开麦", readme)
         self.assertIn("30 秒开麦", readme)
         self.assertIn("https://github.com/zihengniu9/CVOpenMic", readme)
         self.assertIn(
@@ -64,36 +65,40 @@ class SkillPackageTests(unittest.TestCase):
         readme = (ROOT / "README.md").read_text(encoding="utf-8")
         for relative in (
             "assets/brand-hero.svg",
-            "assets/workflow.svg",
             "assets/modules.svg",
-            "assets/framework.svg",
-            "assets/bazi-lens.svg",
         ):
             self.assertTrue((ROOT / relative).is_file(), relative)
             self.assertIn(relative, readme)
+        for removed in (
+            "assets/workflow.svg",
+            "assets/framework.svg",
+            "assets/bazi-lens.svg",
+            "assets/cvopenmic-hero.webp",
+        ):
+            self.assertNotIn(removed, readme)
+            self.assertFalse((ROOT / removed).exists(), removed)
+        self.assertTrue((ROOT / "assets/hero-scene.png").is_file())
+        hero = (ROOT / "assets/brand-hero.svg").read_text(encoding="utf-8")
+        self.assertIn('href="hero-scene.png"', hero)
+        self.assertEqual(readme.count('<img src="assets/'), 2)
         self.assertIn("八字职业镜像", readme)
 
-    def test_readme_visuals_keep_the_restrained_engineering_system(self):
+    def test_readme_visuals_are_self_contained_and_safe(self):
         for asset in (
             "brand-hero.svg",
-            "workflow.svg",
             "modules.svg",
-            "framework.svg",
-            "bazi-lens.svg",
         ):
             svg = (ROOT / "assets" / asset).read_text(encoding="utf-8")
             for banned in (
                 "<foreignObject",
                 "<script",
-                "<filter",
-                "<linearGradient",
-                "<radialGradient",
+                "<iframe",
+                "<animate",
                 'href="http',
                 "xlink:href",
             ):
                 self.assertNotIn(banned, svg, f"{asset}: {banned}")
-            self.assertIn("#050508", svg)
-            self.assertIn("#6ABFFF", svg)
+            self.assertIn("viewBox=", svg)
 
     def test_modules_visual_keeps_the_clear_seven_module_structure(self):
         modules = (ROOT / "assets" / "modules.svg").read_text(encoding="utf-8")
@@ -107,7 +112,13 @@ class SkillPackageTests(unittest.TestCase):
             "八字职业镜像",
         ):
             self.assertIn(title, modules)
-        self.assertIn("可选 · 不进评分 · 不写入简历", modules)
+        for boundary in (
+            "可选模块",
+            "不进评分",
+            "不写入简历",
+            "不用于录用判断",
+        ):
+            self.assertIn(boundary, modules)
 
     def test_rubric_totals_one_hundred(self):
         rubric = (SKILL_DIR / "references" / "rubric.md").read_text(

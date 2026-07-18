@@ -2,9 +2,9 @@
 
 <img src="assets/brand-hero.svg" alt="简历开麦：把经历说成人话，把优势写成证据" width="100%">
 
-# 简历开麦
+# 把经历说成人话，把优势写成证据。
 
-### 先提炼，再开麦，最后给你一版能直接用的简历
+### 简历开麦 · 先提炼，再开麦，最后给你一版能直接用的简历
 
 **CVOpenMic 是一个面向中文求职者的智能体技能：看完整经历、找过筛问题、按证据改写，并交付可编辑 Word 与同源 PDF。**
 
@@ -74,7 +74,9 @@ https://github.com/zihengniu9/CVOpenMic/blob/main/skills/cvopenmic/SKILL.md
 
 ## 从原始简历到可投递版本
 
-<img src="assets/workflow.svg" alt="简历开麦工作流：材料解析、证据账本、岗位路由、诊断、改写和交付" width="100%">
+~~~text
+材料解析与隐私 → 目标岗位路由 → 证据账本与评分 → 毒舌开麦诊断 → 事实安全改写 → Word / PDF 交付
+~~~
 
 工作流默认是 **先给结果，最后再核实**。它会先从已有材料中产出可用版本，只有答案会显著改变事实准确性或岗位策略时，才在最后合并询问不超过两个问题。
 
@@ -94,8 +96,6 @@ https://github.com/zihengniu9/CVOpenMic/blob/main/skills/cvopenmic/SKILL.md
 
 ## 八字职业镜像：不是替你选工作，是多一面认识自己的镜子
 
-<img src="assets/bazi-lens.svg" alt="八字职业镜像：从最小出生信息到工作偏好假设，再由简历证据和岗位环境进行现实验证" width="100%">
-
 简历回答“你做过什么”，岗位说明回答“岗位需要什么”；八字职业镜像补充一组关于“你可能更习惯怎样工作”的传统文化假设。
 
 它不会把五行直接翻译成职业，也不会输出“天生适合 / 不适合某岗位”。传统符号只是提出假设的起点，真实经历和岗位环境才负责验证。
@@ -111,8 +111,6 @@ https://github.com/zihengniu9/CVOpenMic/blob/main/skills/cvopenmic/SKILL.md
 模块只由本人主动开启，且始终遵守：**现实证据优先、不进入简历评分、不写入简历、不用于招聘决策。** 它仅供传统文化学习与自我反思，不构成职业决策依据。该模块自包含，不要求再安装其他八字技能。完整边界见 [bazi-career.md](skills/cvopenmic/references/bazi-career.md)。
 
 ## 理论框架：一个证据引擎 + 一面文化镜子
-
-<img src="assets/framework.svg" alt="简历开麦双轨理论框架" width="100%">
 
 ### 1. 先建证据账本，再动笔
 

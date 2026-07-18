@@ -1,163 +1,245 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="820" viewBox="0 0 1400 820" role="img" aria-labelledby="title desc">
-  <title id="title">简历开麦能力模块</title>
-  <desc id="desc">六张核心能力卡片展示材料解析、岗位路由、证据评分、毒舌诊断、安全改写和文件交付，下方独立展示不参与评分的八字职业镜像。</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="980" viewBox="0 0 1400 980" role="img" aria-labelledby="title desc">
+  <title id="title">简历开麦七个核心模块</title>
+  <desc id="desc">暖白编辑风的信息图。上方展示六个简历处理核心模块，下方以独立深湖蓝区域展示可选的八字职业镜像模块。</desc>
+
   <defs>
-    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
-      <path d="M48 0H0V48" fill="none" stroke="#E8E8EB" stroke-width="1" opacity="0.028"/>
+    <pattern id="grid" width="56" height="56" patternUnits="userSpaceOnUse">
+      <path d="M56 0H0V56" fill="none" stroke="#17313A" stroke-width="1" opacity="0.045"/>
     </pattern>
     <style>
-      text { font-family: Inter, "Noto Sans SC", "Microsoft YaHei", sans-serif; }
+      text { font-family: "Noto Sans SC", "Microsoft YaHei", "PingFang SC", sans-serif; }
       .mono { font-family: "Cascadia Mono", Consolas, monospace; }
-      .eyebrow { font-size: 12px; font-weight: 600; letter-spacing: 1.4px; fill: #6ABFFF; }
-      .heading { font-size: 38px; font-weight: 600; letter-spacing: -1.2px; fill: #E8E8EB; }
-      .sub { font-size: 15px; font-weight: 400; fill: #8A8A95; }
-      .number { font-size: 46px; font-weight: 500; letter-spacing: -2px; fill: #6ABFFF; }
-      .cardTitle { font-size: 20px; font-weight: 600; fill: #E8E8EB; }
-      .body { font-size: 14px; font-weight: 400; fill: #8A8A95; }
-      .tag { font-size: 11px; font-weight: 500; letter-spacing: .2px; fill: #B8B8C1; }
-      .flowMeta { font-size: 10px; font-weight: 500; letter-spacing: .8px; fill: #8A8A95; }
-      .flow { font-size: 14px; font-weight: 600; fill: #E8E8EB; }
-      .footer { font-size: 10px; font-weight: 600; letter-spacing: 1px; fill: #8A8A95; }
+      .eyebrow { font-size: 13px; font-weight: 700; letter-spacing: 2px; fill: #177C83; }
+      .heading { font-size: 48px; font-weight: 800; letter-spacing: -1.5px; fill: #17272D; }
+      .sub { font-size: 16px; font-weight: 400; fill: #69767A; }
+      .claim { font-size: 27px; font-weight: 800; letter-spacing: -.4px; fill: #17272D; }
+      .claimAccent { font-size: 27px; font-weight: 800; letter-spacing: -.4px; fill: #EB674B; }
+      .number { font-size: 12px; font-weight: 800; fill: #FFFFFF; }
+      .cardTitle { font-size: 21px; font-weight: 750; fill: #17272D; }
+      .body { font-size: 14px; font-weight: 400; fill: #667378; }
+      .tag { font-size: 11px; font-weight: 700; fill: #285058; }
+      .baziTitle { font-size: 29px; font-weight: 800; fill: #FFFDF7; }
+      .baziBody { font-size: 14px; font-weight: 400; fill: #C7DBD9; }
+      .flowNo { font-size: 10px; font-weight: 800; letter-spacing: 1px; fill: #EB674B; }
+      .flowTitle { font-size: 15px; font-weight: 750; fill: #17353B; }
+      .guard { font-size: 12px; font-weight: 700; fill: #F9D9CE; }
+      .footer { font-size: 11px; font-weight: 700; letter-spacing: 1px; fill: #7A8588; }
     </style>
   </defs>
 
-  <rect width="1400" height="820" fill="#050508"/>
-  <rect width="1400" height="820" fill="url(#grid)"/>
+  <rect width="1400" height="980" fill="#F2EFE7"/>
+  <rect width="1400" height="980" fill="url(#grid)"/>
 
+  <!-- Editorial header -->
   <g id="header">
-    <rect x="72" y="41" width="28" height="1" fill="#6ABFFF"/>
-    <text x="112" y="46" class="eyebrow mono">CVOPENMIC / 能力模块</text>
-    <text x="72" y="94" class="heading">七个清晰模块，一条完整工作流</text>
-    <text x="72" y="126" class="sub">从材料进入，到可投递文件离开；每个模块只解决一类明确问题。</text>
+    <rect x="72" y="43" width="36" height="4" rx="2" fill="#EB674B"/>
+    <text x="122" y="50" class="eyebrow">简历开麦 · 能力全景</text>
+    <text x="72" y="108" class="heading">七个模块，一套完整方法</text>
+    <text x="72" y="143" class="sub">从原始材料到可投递文件，每一步都有边界、证据与交付物。</text>
 
-    <text x="1328" y="47" text-anchor="end" class="footer mono">版本 1.0 / 07 个模块</text>
-    <circle cx="1319" cy="76" r="3" fill="#6ABFFF"/>
-    <text x="1308" y="80" text-anchor="end" class="footer mono">工作流就绪</text>
+    <g transform="translate(746 48)">
+      <rect x="0" y="0" width="582" height="116" rx="18" fill="#FFFDF8" stroke="#D9D3C8"/>
+      <rect x="0" y="0" width="8" height="116" rx="4" fill="#177C83"/>
+      <text x="34" y="48" class="claim">把经历说成人话，</text>
+      <text x="34" y="84" class="claimAccent">把优势写成证据。</text>
+      <g transform="translate(510 28)" fill="none" stroke="#177C83" stroke-width="2">
+        <circle cx="20" cy="20" r="19" opacity=".18"/>
+        <circle cx="20" cy="20" r="11" opacity=".35"/>
+        <circle cx="20" cy="20" r="3" fill="#EB674B" stroke="none"/>
+        <path d="M20 50V72M9 61H31" opacity=".7"/>
+      </g>
+    </g>
   </g>
 
+  <!-- Six core modules -->
   <g id="core-modules">
-    <g transform="translate(72 158)">
-      <rect x="0.5" y="0.5" width="407" height="181" rx="12" fill="#0A0A0D" stroke="#1F1F24"/>
-      <text x="24" y="57" class="number mono">01</text>
-      <text x="112" y="41" class="cardTitle">材料解析与隐私</text>
-<text x="112" y="73" class="body">读取简历、岗位说明与补充材料</text>
-      <text x="112" y="96" class="body">最小化敏感信息暴露</text>
-      <rect x="111.5" y="121.5" width="79" height="26" rx="5" fill="#050508" stroke="#1F1F24"/>
-      <text x="151" y="139" text-anchor="middle" class="tag">多格式读取</text>
-      <rect x="198.5" y="121.5" width="68" height="26" rx="5" fill="#050508" stroke="#1F1F24"/>
-      <text x="232.5" y="139" text-anchor="middle" class="tag">隐私优先</text>
-      <rect x="0" y="0" width="3" height="42" rx="1.5" fill="#6ABFFF"/>
+    <!-- 01 -->
+    <g transform="translate(72 198)">
+      <rect x="0" y="0" width="400" height="190" rx="18" fill="#FFFDF8" stroke="#D9D3C8"/>
+      <path d="M18 0H382A18 18 0 0 1 400 18V20H0V18A18 18 0 0 1 18 0Z" fill="#DDF0EC"/>
+      <circle cx="34" cy="36" r="18" fill="#177C83"/>
+      <text x="34" y="40" text-anchor="middle" class="number mono">01</text>
+      <text x="24" y="82" class="cardTitle">材料解析与隐私</text>
+      <text x="24" y="111" class="body">读取简历、岗位说明与补充材料，</text>
+      <text x="24" y="134" class="body">先抹除敏感信息，再进入分析。</text>
+      <rect x="24" y="151" width="84" height="24" rx="12" fill="#E4F2EF"/>
+      <text x="66" y="167" text-anchor="middle" class="tag">多格式读取</text>
+      <rect x="116" y="151" width="72" height="24" rx="12" fill="#F6E7DF"/>
+      <text x="152" y="167" text-anchor="middle" class="tag">隐私优先</text>
+      <g transform="translate(316 46)" fill="none" stroke="#177C83" stroke-width="2">
+        <path d="M0 0H38L55 17V66H0Z"/>
+        <path d="M38 0V17H55"/>
+        <path d="M12 29H38M12 40H43M12 51H33" opacity=".55"/>
+        <rect x="38" y="45" width="25" height="22" rx="5" fill="#FFFDF8"/>
+        <path d="M44 45V39A6.5 6.5 0 0 1 57 39V45"/>
+      </g>
     </g>
 
-    <g transform="translate(496 158)">
-      <rect x="0.5" y="0.5" width="407" height="181" rx="12" fill="#0A0A0D" stroke="#1F1F24"/>
-      <text x="24" y="57" class="number mono">02</text>
-      <text x="112" y="41" class="cardTitle">目标岗位路由</text>
-      <text x="112" y="73" class="body">按目标岗位重排经历重点</text>
-      <text x="112" y="96" class="body">建立能力与需求对应关系</text>
-      <rect x="111.5" y="121.5" width="68" height="26" rx="5" fill="#050508" stroke="#1F1F24"/>
-      <text x="145.5" y="139" text-anchor="middle" class="tag">岗位匹配</text>
-      <rect x="187.5" y="121.5" width="68" height="26" rx="5" fill="#050508" stroke="#1F1F24"/>
-      <text x="221.5" y="139" text-anchor="middle" class="tag">重点排序</text>
-      <rect x="0" y="0" width="3" height="42" rx="1.5" fill="#6ABFFF"/>
+    <!-- 02 -->
+    <g transform="translate(500 198)">
+      <rect x="0" y="0" width="400" height="190" rx="18" fill="#FFFDF8" stroke="#D9D3C8"/>
+      <path d="M18 0H382A18 18 0 0 1 400 18V20H0V18A18 18 0 0 1 18 0Z" fill="#F8E5DD"/>
+      <circle cx="34" cy="36" r="18" fill="#EB674B"/>
+      <text x="34" y="40" text-anchor="middle" class="number mono">02</text>
+      <text x="24" y="82" class="cardTitle">目标岗位路由</text>
+      <text x="24" y="111" class="body">按目标岗位重排经历重点，</text>
+      <text x="24" y="134" class="body">建立能力与岗位需求的对应关系。</text>
+      <rect x="24" y="151" width="72" height="24" rx="12" fill="#F7E4DC"/>
+      <text x="60" y="167" text-anchor="middle" class="tag">岗位匹配</text>
+      <rect x="104" y="151" width="72" height="24" rx="12" fill="#E4F2EF"/>
+      <text x="140" y="167" text-anchor="middle" class="tag">重点排序</text>
+      <g transform="translate(318 47)" fill="none" stroke="#EB674B" stroke-width="2">
+        <circle cx="11" cy="9" r="7"/>
+        <circle cx="55" cy="33" r="7"/>
+        <circle cx="16" cy="64" r="7"/>
+        <path d="M18 12L48 29M49 38L22 60"/>
+        <path d="M30 19L36 19L33 25" fill="#FFFDF8"/>
+      </g>
     </g>
 
-    <g transform="translate(920 158)">
-      <rect x="0.5" y="0.5" width="407" height="181" rx="12" fill="#0A0A0D" stroke="#1F1F24"/>
-      <text x="24" y="57" class="number mono">03</text>
-      <text x="112" y="41" class="cardTitle">证据账本与评分</text>
-      <text x="112" y="73" class="body">记录来源、缺口与冲突</text>
-      <text x="112" y="96" class="body">以现实证据完成百分制评分</text>
-      <rect x="111.5" y="121.5" width="68" height="26" rx="5" fill="#050508" stroke="#1F1F24"/>
-      <text x="145.5" y="139" text-anchor="middle" class="tag">证据溯源</text>
-      <rect x="187.5" y="121.5" width="79" height="26" rx="5" fill="#050508" stroke="#1F1F24"/>
-      <text x="227" y="139" text-anchor="middle" class="tag">百分制量表</text>
-      <rect x="0" y="0" width="3" height="42" rx="1.5" fill="#6ABFFF"/>
+    <!-- 03 -->
+    <g transform="translate(928 198)">
+      <rect x="0" y="0" width="400" height="190" rx="18" fill="#FFFDF8" stroke="#D9D3C8"/>
+      <path d="M18 0H382A18 18 0 0 1 400 18V20H0V18A18 18 0 0 1 18 0Z" fill="#DDF0EC"/>
+      <circle cx="34" cy="36" r="18" fill="#177C83"/>
+      <text x="34" y="40" text-anchor="middle" class="number mono">03</text>
+      <text x="24" y="82" class="cardTitle">证据账本与评分</text>
+      <text x="24" y="111" class="body">区分事实、推断、缺口与冲突，</text>
+      <text x="24" y="134" class="body">用现实证据完成百分制评分。</text>
+      <rect x="24" y="151" width="72" height="24" rx="12" fill="#E4F2EF"/>
+      <text x="60" y="167" text-anchor="middle" class="tag">证据溯源</text>
+      <rect x="104" y="151" width="84" height="24" rx="12" fill="#F6E7DF"/>
+      <text x="146" y="167" text-anchor="middle" class="tag">100分量表</text>
+      <g transform="translate(315 48)">
+        <rect x="0" y="43" width="11" height="24" rx="3" fill="#B8D5D1"/>
+        <rect x="19" y="29" width="11" height="38" rx="3" fill="#79B3AF"/>
+        <rect x="38" y="14" width="11" height="53" rx="3" fill="#177C83"/>
+        <rect x="57" y="3" width="11" height="64" rx="3" fill="#EB674B"/>
+        <path d="M1 32L24 23L43 7L63 0" fill="none" stroke="#EB674B" stroke-width="2"/>
+      </g>
     </g>
 
-    <g transform="translate(72 356)">
-      <rect x="0.5" y="0.5" width="407" height="181" rx="12" fill="#0A0A0D" stroke="#1F1F24"/>
-      <text x="24" y="57" class="number mono">04</text>
-      <text x="112" y="41" class="cardTitle">毒舌开麦诊断</text>
-      <text x="112" y="73" class="body">先给结论，再指出致命问题</text>
-      <text x="112" y="96" class="body">按过筛影响排序修改优先级</text>
-      <rect x="111.5" y="121.5" width="68" height="26" rx="5" fill="#050508" stroke="#1F1F24"/>
-      <text x="145.5" y="139" text-anchor="middle" class="tag">结论先行</text>
-      <rect x="187.5" y="121.5" width="79" height="26" rx="5" fill="#050508" stroke="#1F1F24"/>
-      <text x="227" y="139" text-anchor="middle" class="tag">毒舌但有据</text>
-      <rect x="0" y="0" width="3" height="42" rx="1.5" fill="#6ABFFF"/>
+    <!-- 04 -->
+    <g transform="translate(72 412)">
+      <rect x="0" y="0" width="400" height="190" rx="18" fill="#FFFDF8" stroke="#D9D3C8"/>
+      <path d="M18 0H382A18 18 0 0 1 400 18V20H0V18A18 18 0 0 1 18 0Z" fill="#F8E5DD"/>
+      <circle cx="34" cy="36" r="18" fill="#EB674B"/>
+      <text x="34" y="40" text-anchor="middle" class="number mono">04</text>
+      <text x="24" y="82" class="cardTitle">毒舌开麦诊断</text>
+      <text x="24" y="111" class="body">先给结论，再指出真正硬伤，</text>
+      <text x="24" y="134" class="body">按过筛影响排修改优先级。</text>
+      <rect x="24" y="151" width="72" height="24" rx="12" fill="#F7E4DC"/>
+      <text x="60" y="167" text-anchor="middle" class="tag">结论先行</text>
+      <rect x="104" y="151" width="72" height="24" rx="12" fill="#E4F2EF"/>
+      <text x="140" y="167" text-anchor="middle" class="tag">问题分级</text>
+      <g transform="translate(316 48)" fill="none" stroke="#EB674B" stroke-width="2">
+        <path d="M5 0H59A8 8 0 0 1 67 8V44A8 8 0 0 1 59 52H38L23 66V52H5A8 8 0 0 1-3 44V8A8 8 0 0 1 5 0Z"/>
+        <rect x="25" y="12" width="14" height="24" rx="7" fill="#F8E5DD"/>
+        <path d="M17 29A15 15 0 0 0 47 29M32 44V51M23 51H41"/>
+      </g>
     </g>
 
-    <g transform="translate(496 356)">
-      <rect x="0.5" y="0.5" width="407" height="181" rx="12" fill="#0A0A0D" stroke="#1F1F24"/>
-      <text x="24" y="57" class="number mono">05</text>
-      <text x="112" y="41" class="cardTitle">事实安全改写</text>
-      <text x="112" y="73" class="body">把经历改写为完整证据链</text>
-      <text x="112" y="96" class="body">不给推断披上事实外衣</text>
-      <rect x="111.5" y="121.5" width="68" height="26" rx="5" fill="#050508" stroke="#1F1F24"/>
-      <text x="145.5" y="139" text-anchor="middle" class="tag">事实边界</text>
-      <rect x="187.5" y="121.5" width="79" height="26" rx="5" fill="#050508" stroke="#1F1F24"/>
-      <text x="227" y="139" text-anchor="middle" class="tag">可直接复制</text>
-      <rect x="0" y="0" width="3" height="42" rx="1.5" fill="#6ABFFF"/>
+    <!-- 05 -->
+    <g transform="translate(500 412)">
+      <rect x="0" y="0" width="400" height="190" rx="18" fill="#FFFDF8" stroke="#D9D3C8"/>
+      <path d="M18 0H382A18 18 0 0 1 400 18V20H0V18A18 18 0 0 1 18 0Z" fill="#DDF0EC"/>
+      <circle cx="34" cy="36" r="18" fill="#177C83"/>
+      <text x="34" y="40" text-anchor="middle" class="number mono">05</text>
+      <text x="24" y="82" class="cardTitle">事实安全改写</text>
+      <text x="24" y="111" class="body">给出可直接替换的完整表达，</text>
+      <text x="24" y="134" class="body">没有证据的数据，一律不编不补。</text>
+      <rect x="24" y="151" width="72" height="24" rx="12" fill="#E4F2EF"/>
+      <text x="60" y="167" text-anchor="middle" class="tag">事实边界</text>
+      <rect x="104" y="151" width="72" height="24" rx="12" fill="#F6E7DF"/>
+      <text x="140" y="167" text-anchor="middle" class="tag">直接粘贴</text>
+      <g transform="translate(315 48)" fill="none" stroke="#177C83" stroke-width="2">
+        <path d="M5 55L13 35L49 0L66 17L30 53L5 55Z"/>
+        <path d="M13 35L30 53M42 7L59 24"/>
+        <path d="M1 68H66" opacity=".45"/>
+      </g>
     </g>
 
-    <g transform="translate(920 356)">
-      <rect x="0.5" y="0.5" width="407" height="181" rx="12" fill="#0A0A0D" stroke="#1F1F24"/>
-      <text x="24" y="57" class="number mono">06</text>
-      <text x="112" y="41" class="cardTitle">Word / PDF 交付</text>
-      <text x="112" y="73" class="body">生成可编辑 Word 源文件</text>
-      <text x="112" y="96" class="body">用同源 PDF 完成视觉校验</text>
-      <rect x="111.5" y="121.5" width="79" height="26" rx="5" fill="#050508" stroke="#1F1F24"/>
-      <text x="151" y="139" text-anchor="middle" class="tag">Word 可编辑</text>
-      <rect x="198.5" y="121.5" width="68" height="26" rx="5" fill="#050508" stroke="#1F1F24"/>
-      <text x="232.5" y="139" text-anchor="middle" class="tag">PDF 预览</text>
-      <rect x="0" y="0" width="3" height="42" rx="1.5" fill="#6ABFFF"/>
+    <!-- 06 -->
+    <g transform="translate(928 412)">
+      <rect x="0" y="0" width="400" height="190" rx="18" fill="#FFFDF8" stroke="#D9D3C8"/>
+      <path d="M18 0H382A18 18 0 0 1 400 18V20H0V18A18 18 0 0 1 18 0Z" fill="#F8E5DD"/>
+      <circle cx="34" cy="36" r="18" fill="#EB674B"/>
+      <text x="34" y="40" text-anchor="middle" class="number mono">06</text>
+      <text x="24" y="82" class="cardTitle">Word / PDF 交付</text>
+      <text x="24" y="111" class="body">Word 保留编辑能力，PDF 检查</text>
+      <text x="24" y="134" class="body">分页、留白与最终投递效果。</text>
+      <rect x="24" y="151" width="72" height="24" rx="12" fill="#F7E4DC"/>
+      <text x="60" y="167" text-anchor="middle" class="tag">单栏友好</text>
+      <rect x="104" y="151" width="72" height="24" rx="12" fill="#E4F2EF"/>
+      <text x="140" y="167" text-anchor="middle" class="tag">视觉质检</text>
+      <g transform="translate(318 47)" fill="none" stroke="#EB674B" stroke-width="2">
+        <path d="M0 0H39L57 18V66H0Z"/>
+        <path d="M39 0V18H57"/>
+        <path d="M14 33H43M14 44H43M14 55H32" opacity=".5"/>
+        <circle cx="56" cy="56" r="13" fill="#FFFDF8"/>
+        <path d="M49 56L54 61L64 50"/>
+      </g>
     </g>
   </g>
 
-  <g id="bazi-lens">
-    <rect x="72.5" y="566.5" width="1255" height="179" rx="12" fill="#0A0A0D" stroke="#1F1F24"/>
-    <rect x="72" y="566" width="4" height="179" rx="2" fill="#6ABFFF"/>
+  <!-- 07: Bazi career mirror, visually prominent but isolated from scoring -->
+  <g id="bazi-career-mirror">
+    <rect x="72" y="628" width="1256" height="260" rx="24" fill="#173E44"/>
+    <path d="M1082 628H1304A24 24 0 0 1 1328 652V864A24 24 0 0 1 1304 888H1198Z" fill="#1E4A50"/>
+    <circle cx="117" cy="680" r="20" fill="#EB674B"/>
+    <text x="117" y="684" text-anchor="middle" class="number mono">07</text>
+    <rect x="153" y="662" width="82" height="27" rx="13.5" fill="#F8D8CC"/>
+    <text x="194" y="680" text-anchor="middle" class="tag">可选模块</text>
+    <text x="104" y="732" class="baziTitle">八字职业镜像</text>
+    <text x="104" y="762" class="baziBody">把传统文化语言转成可验证的工作方式假设，</text>
+    <text x="104" y="785" class="baziBody">再交给真实经历校验，只生成个人反思备忘。</text>
+    <rect x="104" y="814" width="76" height="28" rx="14" fill="#234F55" stroke="#6B9294"/>
+    <text x="142" y="832" text-anchor="middle" class="guard">不进评分</text>
+    <rect x="189" y="814" width="88" height="28" rx="14" fill="#234F55" stroke="#6B9294"/>
+    <text x="233" y="832" text-anchor="middle" class="guard">不写入简历</text>
 
-    <text x="104" y="608" class="number mono">07</text>
-    <text x="184" y="597" class="cardTitle">八字职业镜像</text>
-    <text x="184" y="625" class="body">把传统文化语言翻译成可验证的工作方式假设</text>
-    <text x="184" y="648" class="body">只生成反思备忘，不影响简历判断</text>
-    <rect x="183.5" y="670.5" width="210" height="28" rx="5" fill="#050508" stroke="#1F1F24"/>
-    <text x="288.5" y="689" text-anchor="middle" class="tag">可选 · 不进评分 · 不写入简历</text>
+    <g transform="translate(440 682)">
+      <text x="0" y="0" class="guard">反思流程</text>
+      <g transform="translate(0 22)">
+        <rect x="0" y="0" width="178" height="92" rx="16" fill="#F9F6EE"/>
+        <text x="18" y="27" class="flowNo mono">01 · 输入</text>
+        <text x="18" y="59" class="flowTitle">最小出生信息</text>
+        <circle cx="151" cy="24" r="7" fill="#EB674B" opacity=".85"/>
+      </g>
+      <line x1="178" y1="68" x2="198" y2="68" stroke="#7BA5A5" stroke-width="2"/>
+      <path d="M192 63L198 68L192 73" fill="none" stroke="#7BA5A5" stroke-width="2"/>
+      <g transform="translate(198 22)">
+        <rect x="0" y="0" width="178" height="92" rx="16" fill="#F9F6EE"/>
+        <text x="18" y="27" class="flowNo mono">02 · 假设</text>
+        <text x="18" y="59" class="flowTitle">工作方式假设</text>
+        <circle cx="151" cy="24" r="7" fill="#177C83" opacity=".85"/>
+      </g>
+      <line x1="376" y1="68" x2="396" y2="68" stroke="#7BA5A5" stroke-width="2"/>
+      <path d="M390 63L396 68L390 73" fill="none" stroke="#7BA5A5" stroke-width="2"/>
+      <g transform="translate(396 22)">
+        <rect x="0" y="0" width="178" height="92" rx="16" fill="#F9F6EE"/>
+        <text x="18" y="27" class="flowNo mono">03 · 校验</text>
+        <text x="18" y="59" class="flowTitle">现实经历验证</text>
+        <circle cx="151" cy="24" r="7" fill="#EB674B" opacity=".85"/>
+      </g>
+      <line x1="574" y1="68" x2="594" y2="68" stroke="#7BA5A5" stroke-width="2"/>
+      <path d="M588 63L594 68L588 73" fill="none" stroke="#7BA5A5" stroke-width="2"/>
+      <g transform="translate(594 22)">
+        <rect x="0" y="0" width="178" height="92" rx="16" fill="#F9F6EE"/>
+        <text x="18" y="27" class="flowNo mono">04 · 输出</text>
+        <text x="18" y="59" class="flowTitle">个人反思备忘</text>
+        <circle cx="151" cy="24" r="7" fill="#177C83" opacity=".85"/>
+      </g>
 
-    <g transform="translate(514 610)">
-      <g>
-        <rect x="0.5" y="0.5" width="166" height="68" rx="10" fill="#050508" stroke="#1F1F24"/>
-        <text x="16" y="24" class="flowMeta mono">01 / 输入</text>
-        <text x="16" y="49" class="flow">最小出生信息</text>
-      </g>
-      <line x1="167" y1="34.5" x2="187" y2="34.5" stroke="#6ABFFF" opacity=".55"/>
-      <circle cx="177" cy="34.5" r="2.5" fill="#6ABFFF"/>
-      <g transform="translate(187 0)">
-        <rect x="0.5" y="0.5" width="166" height="68" rx="10" fill="#050508" stroke="#1F1F24"/>
-        <text x="16" y="24" class="flowMeta mono">02 / 假设</text>
-        <text x="16" y="49" class="flow">工作方式假设</text>
-      </g>
-      <line x1="353" y1="34.5" x2="373" y2="34.5" stroke="#6ABFFF" opacity=".55"/>
-      <circle cx="363" cy="34.5" r="2.5" fill="#6ABFFF"/>
-      <g transform="translate(373 0)">
-        <rect x="0.5" y="0.5" width="146" height="68" rx="10" fill="#050508" stroke="#1F1F24"/>
-        <text x="16" y="24" class="flowMeta mono">03 / 验证</text>
-        <text x="16" y="49" class="flow">现实验证</text>
-      </g>
-      <line x1="519" y1="34.5" x2="539" y2="34.5" stroke="#6ABFFF" opacity=".55"/>
-      <circle cx="529" cy="34.5" r="2.5" fill="#6ABFFF"/>
-      <g transform="translate(539 0)">
-        <rect x="0.5" y="0.5" width="146" height="68" rx="10" fill="#050508" stroke="#1F1F24"/>
-        <text x="16" y="24" class="flowMeta mono">04 / 输出</text>
-        <text x="16" y="49" class="flow">反思备忘</text>
-      </g>
-      <line x1="0" y1="91.5" x2="685" y2="91.5" stroke="#1F1F24" stroke-dasharray="5 7"/>
-      <text x="685" y="115" text-anchor="end" class="footer mono">与评分和简历正文严格隔离</text>
+      <rect x="0" y="137" width="772" height="35" rx="17.5" fill="#234F55"/>
+      <circle cx="20" cy="154.5" r="4" fill="#EB674B"/>
+      <text x="34" y="159" class="guard">只做职业反思 · 不参与简历评分 · 不用于录用判断</text>
     </g>
   </g>
 
-  <text x="72" y="788" class="footer mono">现实证据进入 / 可编辑文件输出</text>
-  <text x="1328" y="788" text-anchor="end" class="footer mono">默认保证事实边界</text>
+  <g id="footer">
+    <text x="72" y="944" class="footer">事实进入 · 证据成形 · 表达落地</text>
+    <line x1="360" y1="940" x2="1110" y2="940" stroke="#CFC9BE"/>
+    <text x="1328" y="944" text-anchor="end" class="footer">简历开麦 / 能力模块 01—07</text>
+  </g>
 </svg>

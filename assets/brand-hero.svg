@@ -1,98 +1,45 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="520" viewBox="0 0 1400 520" role="img" aria-labelledby="title desc">
-  <title id="title">简历开麦 CVOpenMic</title>
-  <desc id="desc">面向中文求职场景的证据优先简历智能体技能，包含证据账本、岗位路由、毒舌诊断、可选八字职业镜像与 DOCX、PDF 交付。</desc>
-  <defs>
-    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
-      <path d="M48 0H0V48" fill="none" stroke="#1F1F24" stroke-width="1"/>
-    </pattern>
-    <style>
-      text { font-family: Inter, "Noto Sans SC", "Microsoft YaHei", sans-serif; }
-      .mono { font-family: "Cascadia Mono", Consolas, monospace; }
-      .text { fill: #E8E8EB; }
-      .muted { fill: #8A8A95; }
-      .accent { fill: #6ABFFF; }
-      .meta { font-size: 13px; font-weight: 600; letter-spacing: 1.4px; }
-      .body { font-size: 17px; font-weight: 400; }
-      .step { font-size: 16px; font-weight: 600; }
-      .detail { font-size: 12px; font-weight: 400; }
-    </style>
-  </defs>
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="500" viewBox="0 0 1400 500" role="img" aria-labelledby="title desc">
+  <title id="title">简历开麦</title>
+  <desc id="desc">简历、麦克风与隐私盾牌构成的深色摄影场景。主标题为：把经历说成人话，把优势写成证据。</desc>
 
-  <rect width="1400" height="520" fill="#050508"/>
-  <rect width="1400" height="520" fill="url(#grid)" opacity="0.48"/>
-  <rect x="0.5" y="0.5" width="1399" height="519" rx="10" fill="none" stroke="#1F1F24"/>
+  <style>
+    text { font-family: "Noto Sans SC", "Microsoft YaHei", "PingFang SC", sans-serif; }
+    .warm { fill: #F7F0EB; }
+    .soft { fill: #D8CFCA; }
+    .accent { fill: #FF6847; }
+  </style>
 
-  <g transform="translate(64 48)">
-    <rect x="0" y="1" width="8" height="8" fill="#6ABFFF"/>
-    <text x="20" y="11" class="mono accent meta">简历开麦 / 智能体技能</text>
-    <text x="0" y="119" class="text" font-size="72" font-weight="650" letter-spacing="-2">简历开麦</text>
-    <text x="2" y="169" class="text" font-size="29" font-weight="500">把经历写成可验证的证据。</text>
+  <image href="hero-scene.png" x="0" y="0" width="1400" height="500" preserveAspectRatio="xMidYMid slice"/>
+  <rect x="0.5" y="0.5" width="1399" height="499" rx="12" fill="none" stroke="#FFFFFF" stroke-opacity="0.10"/>
 
-    <line x1="0" y1="208" x2="668" y2="208" stroke="#1F1F24"/>
-    <text x="0" y="250" class="muted body">提炼核心经历，指出真正影响过筛的问题，</text>
-    <text x="0" y="280" class="muted body">再给出可直接使用、且能追溯到原始材料的表述。</text>
-
-    <text x="0" y="330" class="mono muted meta">提炼  /  诊断  /  改写  /  交付</text>
-
-    <g transform="translate(0 354)">
-      <rect width="668" height="62" rx="7" fill="#0A0A0D" stroke="#1F1F24"/>
-      <text x="22" y="25" class="mono muted" font-size="12">智能体指令</text>
-      <text x="22" y="46" class="mono text" font-size="14">使用 GitHub：github.com/zihengniu9/CVOpenMic</text>
-      <text x="634" y="38" class="mono accent" font-size="15" text-anchor="end">↗</text>
-    </g>
-  </g>
-
-  <g transform="translate(820 52)">
-    <rect width="516" height="416" rx="8" fill="#0A0A0D" stroke="#1F1F24"/>
-    <text x="24" y="31" class="mono text meta">运行 / 简历流水线</text>
-    <text x="492" y="31" class="mono accent meta" text-anchor="end">就绪</text>
-    <line x1="0" y1="50" x2="516" y2="50" stroke="#1F1F24"/>
-
-    <line x1="31" y1="77" x2="31" y2="339" stroke="#1F1F24"/>
-
-    <g transform="translate(0 64)">
-      <rect x="27" y="10" width="8" height="8" fill="#6ABFFF"/>
-      <text x="54" y="17" class="mono muted" font-size="12">01</text>
-      <text x="88" y="17" class="mono text step">证据账本</text>
-      <text x="88" y="39" class="muted detail">事实 / 推断 / 缺口 / 冲突</text>
-      <text x="492" y="17" class="mono muted detail" text-anchor="end">已建立</text>
+  <g transform="translate(72 58)">
+    <g aria-label="简历开麦 · 中文求职智能体技能">
+      <rect x="0" y="0" width="5" height="18" rx="2.5" class="accent"/>
+      <text x="18" y="15" class="soft" font-size="14" font-weight="600" letter-spacing="1.2">简历开麦 · 中文求职智能体技能</text>
     </g>
 
-    <g transform="translate(0 126)">
-      <rect x="27" y="10" width="8" height="8" fill="#6ABFFF"/>
-      <text x="54" y="17" class="mono muted" font-size="12">02</text>
-      <text x="88" y="17" class="mono text step">岗位路由</text>
-      <text x="88" y="39" class="muted detail">证据对齐目标岗位语言</text>
-      <text x="492" y="17" class="mono muted detail" text-anchor="end">已路由</text>
-    </g>
+      <text x="0" y="108" class="warm" font-size="55" font-weight="700" letter-spacing="-1.5">把经历说成人话，</text>
+    <text x="0" y="179" class="warm" font-size="55" font-weight="700" letter-spacing="-1.5">把优势写成证据。</text>
+    <rect x="1" y="197" width="132" height="4" rx="2" class="accent"/>
 
-    <g transform="translate(0 188)">
-      <rect x="27" y="10" width="8" height="8" fill="#6ABFFF"/>
-      <text x="54" y="17" class="mono muted" font-size="12">03</text>
-      <text x="88" y="17" class="mono text step">毒舌诊断</text>
-      <text x="88" y="39" class="muted detail">问题分级与事实安全改写</text>
-      <text x="492" y="17" class="mono muted detail" text-anchor="end">已完成</text>
-    </g>
+    <text x="0" y="247" class="soft" font-size="18" font-weight="400" letter-spacing="0.2">先提炼，再开麦，最后交付可编辑简历。</text>
 
-    <g transform="translate(0 250)">
-      <rect x="27" y="10" width="8" height="8" fill="#050508" stroke="#6ABFFF"/>
-      <text x="54" y="17" class="mono muted" font-size="12">04</text>
-      <text x="88" y="17" class="mono text step">八字职业镜像</text>
-      <text x="88" y="39" class="muted detail">职业环境与工作方式的文化反思</text>
-      <text x="492" y="17" class="mono accent detail" text-anchor="end">可选</text>
+    <g transform="translate(0 284)" font-size="14" font-weight="600">
+      <g>
+        <rect width="104" height="36" rx="18" fill="#0B0A0A" fill-opacity="0.58" stroke="#C6B6AD" stroke-opacity="0.35"/>
+        <circle cx="19" cy="18" r="3" class="accent"/>
+        <text x="31" y="23" class="warm">证据优先</text>
+      </g>
+      <g transform="translate(116 0)">
+        <rect width="104" height="36" rx="18" fill="#0B0A0A" fill-opacity="0.58" stroke="#C6B6AD" stroke-opacity="0.35"/>
+        <circle cx="19" cy="18" r="3" class="accent"/>
+        <text x="31" y="23" class="warm">不编经历</text>
+      </g>
+      <g transform="translate(232 0)">
+        <rect width="152" height="36" rx="18" fill="#0B0A0A" fill-opacity="0.58" stroke="#C6B6AD" stroke-opacity="0.35"/>
+        <circle cx="19" cy="18" r="3" class="accent"/>
+        <text x="31" y="23" class="warm">Word / PDF 交付</text>
+      </g>
     </g>
-
-    <g transform="translate(0 312)">
-      <rect x="27" y="10" width="8" height="8" fill="#6ABFFF"/>
-      <text x="54" y="17" class="mono muted" font-size="12">05</text>
-      <text x="88" y="17" class="mono text step">文件交付</text>
-      <text x="88" y="39" class="muted detail">可编辑 DOCX + 同源 PDF 预览</text>
-      <text x="492" y="17" class="mono accent detail" text-anchor="end">写入</text>
-    </g>
-
-    <line x1="0" y1="366" x2="516" y2="366" stroke="#1F1F24"/>
-    <text x="24" y="397" class="mono muted" font-size="12">交付文件/</text>
-    <text x="92" y="397" class="mono text" font-size="12">简历.DOCX  ·  预览.PDF</text>
-    <text x="492" y="397" class="mono accent" font-size="12" text-anchor="end">可追溯</text>
   </g>
 </svg>
