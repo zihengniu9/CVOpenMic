@@ -24,6 +24,7 @@ htmlcov/
 
 # Runtime artifacts and user data
 *.log
+output/
 uploads/
 exports/
 tmp/
@@ -34,4 +35,3 @@ tmp/
 .DS_Store
 Thumbs.db
 Desktop.ini
-

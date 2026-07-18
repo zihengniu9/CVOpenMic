@@ -1,0 +1,135 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="560" viewBox="0 0 1600 560" role="img" aria-labelledby="title desc">
+  <title id="title">简历开麦工作流</title>
+  <desc id="desc">从简历和岗位描述输入，经过证据账本、岗位路由、开麦诊断、事实安全改写，输出可编辑 DOCX 并进行 PDF 视觉质检。</desc>
+  <defs>
+    <linearGradient id="head" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0B2639"/>
+      <stop offset="1" stop-color="#164E63"/>
+    </linearGradient>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0 0 L10 5 L0 10 Z" fill="#7FA7B6"/>
+    </marker>
+    <style>
+      text { font-family: "Microsoft YaHei", "PingFang SC", Arial, sans-serif; }
+      .stage { font-size: 21px; font-weight: 800; fill: #102A43; }
+      .detail { font-size: 15px; fill: #627D98; }
+      .num { font-size: 16px; font-weight: 900; fill: #FFFFFF; }
+    </style>
+  </defs>
+
+  <rect width="1600" height="560" rx="28" fill="#F7FAFC"/>
+  <rect x="0" y="0" width="1600" height="116" rx="28" fill="url(#head)"/>
+  <rect x="0" y="88" width="1600" height="28" fill="url(#head)"/>
+  <text x="70" y="53" font-size="32" font-weight="900" fill="#F7FAFC">一条证据链，走完整份简历</text>
+  <text x="70" y="86" font-size="17" font-weight="600" fill="#B9D7DE">输入不必完美；输出必须可追溯、可编辑、可投递</text>
+  <g transform="translate(1280 33)">
+    <rect width="250" height="48" rx="24" fill="#2DD4BF"/>
+    <text x="125" y="31" text-anchor="middle" font-size="18" font-weight="900" fill="#0A2A38">7 步闭环工作流</text>
+  </g>
+
+  <path d="M175 287 H1425" fill="none" stroke="#A9C2CC" stroke-width="4" stroke-dasharray="7 10" marker-end="url(#arrow)"/>
+
+  <g transform="translate(45 178)">
+    <rect width="190" height="220" rx="22" fill="#FFFFFF" stroke="#C9D9E2" stroke-width="2"/>
+    <circle cx="28" cy="28" r="17" fill="#627D98"/>
+    <text x="28" y="34" text-anchor="middle" class="num">1</text>
+    <g transform="translate(64 45)">
+      <rect x="0" y="0" width="50" height="62" rx="6" fill="#E8EEF2" stroke="#829AB1" stroke-width="2"/>
+      <path d="M11 18 H38 M11 30 H38 M11 42 H30" stroke="#627D98" stroke-width="4" stroke-linecap="round"/>
+      <rect x="40" y="35" width="50" height="42" rx="7" fill="#DDF7F2" stroke="#2DD4BF" stroke-width="2"/>
+      <text x="65" y="62" text-anchor="middle" font-size="18" font-weight="900" fill="#11665D">JD</text>
+    </g>
+    <text x="95" y="150" text-anchor="middle" class="stage">简历 + JD</text>
+    <text x="95" y="178" text-anchor="middle" class="detail">原始经历与目标岗位</text>
+  </g>
+
+  <g transform="translate(265 178)">
+    <rect width="190" height="220" rx="22" fill="#FFFFFF" stroke="#9DDED5" stroke-width="2"/>
+    <circle cx="28" cy="28" r="17" fill="#2DD4BF"/>
+    <text x="28" y="34" text-anchor="middle" class="num">2</text>
+    <g transform="translate(55 45)">
+      <rect width="80" height="70" rx="10" fill="#E9F8F5" stroke="#2DD4BF" stroke-width="2"/>
+      <path d="M15 20 H65 M15 35 H65 M15 50 H48" stroke="#2E7D75" stroke-width="5" stroke-linecap="round"/>
+      <circle cx="67" cy="54" r="13" fill="#C7F464"/>
+      <path d="M61 54 L66 59 L74 49" fill="none" stroke="#1F513E" stroke-width="3" stroke-linecap="round"/>
+    </g>
+    <text x="95" y="150" text-anchor="middle" class="stage">证据账本</text>
+    <text x="95" y="176" text-anchor="middle" class="detail">事实 / 推断 / 缺口 / 冲突</text>
+  </g>
+
+  <g transform="translate(485 178)">
+    <rect width="190" height="220" rx="22" fill="#FFFFFF" stroke="#C9D9E2" stroke-width="2"/>
+    <circle cx="28" cy="28" r="17" fill="#3D6F8A"/>
+    <text x="28" y="34" text-anchor="middle" class="num">3</text>
+    <g transform="translate(51 45)">
+      <circle cx="44" cy="30" r="15" fill="#DCE7EC" stroke="#3D6F8A" stroke-width="2"/>
+      <path d="M44 45 V58 M44 58 H15 M44 58 H73 M15 58 V72 M73 58 V72" fill="none" stroke="#3D6F8A" stroke-width="4" stroke-linecap="round"/>
+      <circle cx="15" cy="76" r="9" fill="#2DD4BF"/>
+      <circle cx="73" cy="76" r="9" fill="#FFCC66"/>
+    </g>
+    <text x="95" y="150" text-anchor="middle" class="stage">岗位路由</text>
+    <text x="95" y="176" text-anchor="middle" class="detail">把证据对准岗位语言</text>
+  </g>
+
+  <g transform="translate(705 178)">
+    <rect width="190" height="220" rx="22" fill="#FFF9F7" stroke="#FFC4B9" stroke-width="2"/>
+    <circle cx="28" cy="28" r="17" fill="#FF6B57"/>
+    <text x="28" y="34" text-anchor="middle" class="num">4</text>
+    <g transform="translate(52 41)">
+      <path d="M12 12 H64 Q78 12 78 26 V48 Q78 62 64 62 H46 L31 75 V62 H12 Q0 62 0 48 V26 Q0 12 12 12 Z" fill="#FFE4DE" stroke="#FF6B57" stroke-width="2"/>
+      <rect x="31" y="22" width="14" height="25" rx="7" fill="#FF6B57"/>
+      <path d="M24 41 Q24 55 38 55 Q52 55 52 41" fill="none" stroke="#A9392B" stroke-width="4" stroke-linecap="round"/>
+    </g>
+    <text x="95" y="150" text-anchor="middle" class="stage">开麦诊断</text>
+    <text x="95" y="176" text-anchor="middle" class="detail">毒舌指出问题与优先级</text>
+  </g>
+
+  <g transform="translate(925 178)">
+    <rect width="190" height="220" rx="22" fill="#FFFFFF" stroke="#F1D291" stroke-width="2"/>
+    <circle cx="28" cy="28" r="17" fill="#E9A928"/>
+    <text x="28" y="34" text-anchor="middle" class="num">5</text>
+    <g transform="translate(52 43)">
+      <path d="M8 64 L20 40 L58 2 L77 21 L39 59 L15 72 Z" fill="#FFF0C9" stroke="#D89116" stroke-width="2"/>
+      <path d="M58 2 L77 21" stroke="#D89116" stroke-width="4"/>
+      <path d="M20 40 L39 59" stroke="#D89116" stroke-width="3"/>
+      <path d="M8 64 L15 72" stroke="#D89116" stroke-width="4"/>
+    </g>
+    <text x="95" y="150" text-anchor="middle" class="stage">事实安全改写</text>
+    <text x="95" y="176" text-anchor="middle" class="detail">只优化表达，不虚构经历</text>
+  </g>
+
+  <g transform="translate(1145 178)">
+    <rect width="190" height="220" rx="22" fill="#FFFFFF" stroke="#C9D9E2" stroke-width="2"/>
+    <circle cx="28" cy="28" r="17" fill="#3D6F8A"/>
+    <text x="28" y="34" text-anchor="middle" class="num">6</text>
+    <g transform="translate(56 41)">
+      <path d="M0 0 H56 L78 22 V76 H0 Z" fill="#EAF0F4" stroke="#3D6F8A" stroke-width="2"/>
+      <path d="M56 0 V22 H78" fill="none" stroke="#3D6F8A" stroke-width="2"/>
+      <text x="39" y="53" text-anchor="middle" font-size="21" font-weight="900" fill="#2D5B73">W</text>
+    </g>
+    <text x="95" y="150" text-anchor="middle" class="stage">可编辑 DOCX</text>
+    <text x="95" y="176" text-anchor="middle" class="detail">结构完整，便于继续修改</text>
+  </g>
+
+  <g transform="translate(1365 178)">
+    <rect width="190" height="220" rx="22" fill="#F6FCEB" stroke="#C7E785" stroke-width="2"/>
+    <circle cx="28" cy="28" r="17" fill="#82B72D"/>
+    <text x="28" y="34" text-anchor="middle" class="num">7</text>
+    <g transform="translate(48 44)">
+      <path d="M0 0 H58 L80 22 V74 H0 Z" fill="#EFF8D8" stroke="#82B72D" stroke-width="2"/>
+      <path d="M58 0 V22 H80" fill="none" stroke="#82B72D" stroke-width="2"/>
+      <circle cx="67" cy="62" r="18" fill="#C7F464" stroke="#4C761E" stroke-width="2"/>
+      <path d="M59 62 L65 68 L76 55" fill="none" stroke="#315315" stroke-width="4" stroke-linecap="round"/>
+    </g>
+    <text x="95" y="150" text-anchor="middle" class="stage">PDF 视觉质检</text>
+    <text x="95" y="176" text-anchor="middle" class="detail">检查分页、留白与可读性</text>
+  </g>
+
+  <g transform="translate(55 445)">
+    <rect width="1490" height="66" rx="18" fill="#E9F4F5"/>
+    <circle cx="35" cy="33" r="18" fill="#0F5965"/>
+    <path d="M28 33 L33 38 L43 27" fill="none" stroke="#C7F464" stroke-width="4" stroke-linecap="round"/>
+    <text x="68" y="28" font-size="17" font-weight="900" fill="#123E4B">每次改写都能回到原始事实</text>
+    <text x="68" y="51" font-size="15" fill="#486581">找不到证据的数据，明确标记为「待补充」；存在冲突的信息，先提示，不擅自替用户决定。</text>
+  </g>
+</svg>
