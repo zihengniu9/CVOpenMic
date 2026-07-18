@@ -1,103 +1,98 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="560" viewBox="0 0 1400 560" role="img" aria-labelledby="title desc">
-  <title id="title">简历开麦 CVOpenMic 品牌首屏</title>
-  <desc id="desc">把经历说成人话，把优势写成证据。支持核心提炼、毒舌诊断、事实安全改写和 Word PDF 交付。</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="520" viewBox="0 0 1400 520" role="img" aria-labelledby="title desc">
+  <title id="title">简历开麦 CVOpenMic</title>
+  <desc id="desc">面向中文求职场景的证据优先简历 Skill，包含证据账本、岗位路由、开麦诊断、可选八字职业镜头与 Word PDF 交付。</desc>
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#071A2C"/>
-      <stop offset="0.58" stop-color="#0D2B42"/>
-      <stop offset="1" stop-color="#11495A"/>
-    </linearGradient>
-    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#2DD4BF"/>
-      <stop offset="1" stop-color="#C7F464"/>
-    </linearGradient>
-    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
-      <feDropShadow dx="0" dy="12" stdDeviation="18" flood-color="#020B14" flood-opacity="0.32"/>
-    </filter>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V48" fill="none" stroke="#1F1F24" stroke-width="1"/>
+    </pattern>
     <style>
-      text { font-family: "Microsoft YaHei", "PingFang SC", Arial, sans-serif; }
-      .muted { fill: #B9CFDA; }
-      .chip { font-size: 20px; font-weight: 700; fill: #EAF7F6; }
+      text { font-family: Inter, "Noto Sans SC", "Microsoft YaHei", sans-serif; }
+      .mono { font-family: "Cascadia Mono", Consolas, monospace; }
+      .text { fill: #E8E8EB; }
+      .muted { fill: #8A8A95; }
+      .accent { fill: #6ABFFF; }
+      .meta { font-size: 13px; font-weight: 600; letter-spacing: 1.4px; }
+      .body { font-size: 17px; font-weight: 400; }
+      .step { font-size: 16px; font-weight: 600; }
+      .detail { font-size: 12px; font-weight: 400; }
     </style>
   </defs>
 
-  <rect width="1400" height="560" rx="34" fill="url(#bg)"/>
-  <circle cx="1298" cy="72" r="210" fill="#2DD4BF" opacity="0.08"/>
-  <circle cx="1200" cy="520" r="265" fill="#C7F464" opacity="0.055"/>
-  <path d="M0 465 C210 405 312 545 555 488 C755 441 824 382 1057 442 C1201 479 1308 471 1400 432 L1400 560 L0 560 Z" fill="#2DD4BF" opacity="0.055"/>
+  <rect width="1400" height="520" fill="#050508"/>
+  <rect width="1400" height="520" fill="url(#grid)" opacity="0.48"/>
+  <rect x="0.5" y="0.5" width="1399" height="519" rx="10" fill="none" stroke="#1F1F24"/>
 
-  <g transform="translate(86 78)">
-    <rect x="0" y="0" width="86" height="86" rx="24" fill="url(#accent)"/>
-    <path d="M22 20 H57 Q67 20 67 30 V54 Q67 64 57 64 H43 L31 75 V64 H22 Q14 64 14 54 V30 Q14 20 22 20 Z" fill="#0B2639"/>
-    <rect x="37" y="28" width="12" height="23" rx="6" fill="#F7FAFC"/>
-    <path d="M30 45 Q30 58 43 58 Q56 58 56 45" fill="none" stroke="#F7FAFC" stroke-width="4" stroke-linecap="round"/>
-    <path d="M43 58 V65 M35 65 H51" fill="none" stroke="#F7FAFC" stroke-width="4" stroke-linecap="round"/>
+  <g transform="translate(64 48)">
+    <rect x="0" y="1" width="8" height="8" fill="#6ABFFF"/>
+    <text x="20" y="11" class="mono accent meta">CVOPENMIC / SKILL</text>
+    <text x="0" y="119" class="text" font-size="72" font-weight="650" letter-spacing="-2">简历开麦</text>
+    <text x="2" y="169" class="text" font-size="29" font-weight="500">把经历写成可验证的证据。</text>
 
-    <text x="112" y="52" font-size="48" font-weight="800" fill="#F7FAFC" letter-spacing="2">简历开麦</text>
-    <text x="113" y="81" font-size="18" font-weight="700" fill="#62E5D7" letter-spacing="2.4">CVOPENMIC</text>
+    <line x1="0" y1="208" x2="668" y2="208" stroke="#1F1F24"/>
+    <text x="0" y="250" class="muted body">提炼核心经历，指出真正影响过筛的问题，</text>
+    <text x="0" y="280" class="muted body">再给出可直接使用、且能追溯到原始材料的表述。</text>
 
-    <text x="0" y="176" font-size="58" font-weight="900" fill="#F7FAFC">把经历说成人话，</text>
-    <text x="0" y="244" font-size="58" font-weight="900" fill="url(#accent)">把优势写成证据。</text>
-    <text x="2" y="290" font-size="23" class="muted">面向中文求职场景的 Agent Skill · 不编故事，只把事实说清楚</text>
+    <text x="0" y="330" class="mono muted meta">EXTRACT  /  AUDIT  /  REWRITE  /  DELIVER</text>
 
-    <g transform="translate(0 332)">
-      <g>
-        <rect width="136" height="48" rx="24" fill="#173D52" stroke="#2F6074"/>
-        <circle cx="25" cy="24" r="7" fill="#2DD4BF"/>
-        <text x="45" y="31" class="chip">核心提炼</text>
-      </g>
-      <g transform="translate(152 0)">
-        <rect width="136" height="48" rx="24" fill="#173D52" stroke="#2F6074"/>
-        <circle cx="25" cy="24" r="7" fill="#FF6B57"/>
-        <text x="45" y="31" class="chip">毒舌诊断</text>
-      </g>
-      <g transform="translate(304 0)">
-        <rect width="164" height="48" rx="24" fill="#173D52" stroke="#2F6074"/>
-        <circle cx="25" cy="24" r="7" fill="#FFCC66"/>
-        <text x="45" y="31" class="chip">事实安全改写</text>
-      </g>
-      <g transform="translate(484 0)">
-        <rect width="158" height="48" rx="24" fill="#173D52" stroke="#2F6074"/>
-        <circle cx="25" cy="24" r="7" fill="#C7F464"/>
-        <text x="45" y="31" class="chip">Word + PDF</text>
-      </g>
+    <g transform="translate(0 354)">
+      <rect width="668" height="62" rx="7" fill="#0A0A0D" stroke="#1F1F24"/>
+      <text x="22" y="25" class="mono muted" font-size="12">AGENT INPUT</text>
+      <text x="22" y="46" class="mono text" font-size="14">$ use github.com/zihengniu9/CVOpenMic</text>
+      <text x="634" y="38" class="mono accent" font-size="15" text-anchor="end">↗</text>
     </g>
   </g>
 
-  <g transform="translate(885 64)" filter="url(#shadow)">
-    <rect x="0" y="0" width="388" height="428" rx="28" fill="#F8FBFC"/>
-    <rect x="0" y="0" width="388" height="72" rx="28" fill="#E9F7F5"/>
-    <rect x="0" y="48" width="388" height="24" fill="#E9F7F5"/>
-    <circle cx="36" cy="35" r="8" fill="#FF6B57"/>
-    <circle cx="61" cy="35" r="8" fill="#FFCC66"/>
-    <circle cx="86" cy="35" r="8" fill="#2DD4BF"/>
-    <text x="116" y="43" font-size="18" font-weight="800" fill="#183B4E">证据化简历</text>
+  <g transform="translate(820 52)">
+    <rect width="516" height="416" rx="8" fill="#0A0A0D" stroke="#1F1F24"/>
+    <text x="24" y="31" class="mono text meta">RUN / resume.pipeline</text>
+    <text x="492" y="31" class="mono accent meta" text-anchor="end">READY</text>
+    <line x1="0" y1="50" x2="516" y2="50" stroke="#1F1F24"/>
 
-    <rect x="30" y="99" width="116" height="16" rx="8" fill="#163B50"/>
-    <rect x="30" y="130" width="236" height="10" rx="5" fill="#9FB3C1"/>
-    <rect x="30" y="150" width="194" height="10" rx="5" fill="#CBD7DF"/>
+    <line x1="31" y1="77" x2="31" y2="339" stroke="#1F1F24"/>
 
-    <g transform="translate(30 187)">
-      <rect width="328" height="74" rx="15" fill="#EEF8F6" stroke="#BDE7E1"/>
-      <rect x="16" y="16" width="44" height="42" rx="11" fill="#2DD4BF"/>
-      <path d="M29 38 L37 46 L51 27" fill="none" stroke="#092637" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
-      <text x="75" y="31" font-size="16" font-weight="800" fill="#164E58">结论先行</text>
-      <text x="75" y="54" font-size="14" fill="#486581">先说结果，再补动作与证据</text>
+    <g transform="translate(0 64)">
+      <rect x="27" y="10" width="8" height="8" fill="#6ABFFF"/>
+      <text x="54" y="17" class="mono muted" font-size="12">01</text>
+      <text x="88" y="17" class="mono text step">evidence-ledger</text>
+      <text x="88" y="39" class="muted detail">事实 / 推断 / 缺口 / 冲突</text>
+      <text x="492" y="17" class="mono muted detail" text-anchor="end">BUILT</text>
     </g>
 
-    <g transform="translate(30 277)">
-      <rect width="328" height="74" rx="15" fill="#FFF5F2" stroke="#FFD2C9"/>
-      <rect x="16" y="16" width="44" height="42" rx="11" fill="#FF6B57"/>
-      <path d="M37 24 V45 M37 54 V55" fill="none" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round"/>
-      <text x="75" y="31" font-size="16" font-weight="800" fill="#9D2C20">毒舌开麦</text>
-      <text x="75" y="54" font-size="14" fill="#7B4B45">指出硬伤，也给可直接替换的表述</text>
+    <g transform="translate(0 126)">
+      <rect x="27" y="10" width="8" height="8" fill="#6ABFFF"/>
+      <text x="54" y="17" class="mono muted" font-size="12">02</text>
+      <text x="88" y="17" class="mono text step">role-router</text>
+      <text x="88" y="39" class="muted detail">证据对齐目标岗位语言</text>
+      <text x="492" y="17" class="mono muted detail" text-anchor="end">ROUTED</text>
     </g>
 
-    <g transform="translate(30 373)">
-      <rect width="148" height="34" rx="17" fill="#173D52"/>
-      <text x="74" y="23" text-anchor="middle" font-size="14" font-weight="800" fill="#F7FAFC">DOCX 可编辑</text>
-      <rect x="180" width="148" height="34" rx="17" fill="#C7F464"/>
-      <text x="254" y="23" text-anchor="middle" font-size="14" font-weight="800" fill="#183B4E">PDF 可预览</text>
+    <g transform="translate(0 188)">
+      <rect x="27" y="10" width="8" height="8" fill="#6ABFFF"/>
+      <text x="54" y="17" class="mono muted" font-size="12">03</text>
+      <text x="88" y="17" class="mono text step">critical-review</text>
+      <text x="88" y="39" class="muted detail">问题分级与事实安全改写</text>
+      <text x="492" y="17" class="mono muted detail" text-anchor="end">PASSED</text>
     </g>
+
+    <g transform="translate(0 250)">
+      <rect x="27" y="10" width="8" height="8" fill="#050508" stroke="#6ABFFF"/>
+      <text x="54" y="17" class="mono muted" font-size="12">04</text>
+      <text x="88" y="17" class="mono text step">bazi-lens</text>
+      <text x="88" y="39" class="muted detail">职业环境与工作方式的文化反思</text>
+      <text x="492" y="17" class="mono accent detail" text-anchor="end">OPTIONAL</text>
+    </g>
+
+    <g transform="translate(0 312)">
+      <rect x="27" y="10" width="8" height="8" fill="#6ABFFF"/>
+      <text x="54" y="17" class="mono muted" font-size="12">05</text>
+      <text x="88" y="17" class="mono text step">output</text>
+      <text x="88" y="39" class="muted detail">可编辑 Word + 同源 PDF 预览</text>
+      <text x="492" y="17" class="mono accent detail" text-anchor="end">WRITE</text>
+    </g>
+
+    <line x1="0" y1="366" x2="516" y2="366" stroke="#1F1F24"/>
+    <text x="24" y="397" class="mono muted" font-size="12">artifact/</text>
+    <text x="92" y="397" class="mono text" font-size="12">resume.docx  ·  preview.pdf</text>
+    <text x="492" y="397" class="mono accent" font-size="12" text-anchor="end">TRACEABLE</text>
   </g>
 </svg>

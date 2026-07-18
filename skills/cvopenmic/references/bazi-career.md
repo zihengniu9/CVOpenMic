@@ -1,4 +1,4 @@
-# Bazi career-reflection bridge
+# Bazi career mirror
 
 Use this reference only after the user explicitly requests Bazi-based career reflection. Treat the result as traditional-culture entertainment and a prompt for self-reflection, not scientific assessment or decision evidence.
 
@@ -61,11 +61,11 @@ Resume evidence always wins. For example, publications may support research dept
 
 Return:
 
-1. `命盘摘要` — only the chart facts supplied by the charting source.
-2. `工作方式映射` — 3–5 tentative preferences, each phrased as “可能更偏好…，请结合真实经历验证”.
-3. `与目标岗位的张力` — `较顺势 / 中性 / 有张力`, with the JD feature being compared.
-4. `现实证据对照` — compare each reflection with facts already present in the resume; avoid a questionnaire when evidence is available.
-5. `边界说明` — state that the module is traditional-culture entertainment and does not affect the evidence-based resume score or career recommendation.
+1. `排盘信息核验` — only the chart facts supplied by the charting source.
+2. `工作偏好假设` — 3–5 tentative preferences, each phrased as “可能更偏好…，请结合真实经历验证”.
+3. `岗位环境对照` — compare the hypothesis with concrete JD features such as pace, structure, autonomy, collaboration, and commercial exposure.
+4. `现实经历验证` — compare each reflection with facts already present in the resume; avoid a questionnaire when evidence is available.
+5. `个人反思备忘` — summarize each item as `相合信号 / 待验证 / 存在张力`, then state that the module is traditional-culture entertainment and does not affect the evidence-based resume score or career recommendation.
 
 ## Safety rules
 
