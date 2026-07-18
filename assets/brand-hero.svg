@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1400" height="520" viewBox="0 0 1400 520" role="img" aria-labelledby="title desc">
   <title id="title">简历开麦 CVOpenMic</title>
-  <desc id="desc">面向中文求职场景的证据优先简历 Skill，包含证据账本、岗位路由、开麦诊断、可选八字职业镜头与 Word PDF 交付。</desc>
+  <desc id="desc">面向中文求职场景的证据优先简历智能体技能，包含证据账本、岗位路由、毒舌诊断、可选八字职业镜像与 DOCX、PDF 交付。</desc>
   <defs>
     <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
       <path d="M48 0H0V48" fill="none" stroke="#1F1F24" stroke-width="1"/>
@@ -24,7 +24,7 @@
 
   <g transform="translate(64 48)">
     <rect x="0" y="1" width="8" height="8" fill="#6ABFFF"/>
-    <text x="20" y="11" class="mono accent meta">CVOPENMIC / SKILL</text>
+    <text x="20" y="11" class="mono accent meta">简历开麦 / 智能体技能</text>
     <text x="0" y="119" class="text" font-size="72" font-weight="650" letter-spacing="-2">简历开麦</text>
     <text x="2" y="169" class="text" font-size="29" font-weight="500">把经历写成可验证的证据。</text>
 
@@ -32,20 +32,20 @@
     <text x="0" y="250" class="muted body">提炼核心经历，指出真正影响过筛的问题，</text>
     <text x="0" y="280" class="muted body">再给出可直接使用、且能追溯到原始材料的表述。</text>
 
-    <text x="0" y="330" class="mono muted meta">EXTRACT  /  AUDIT  /  REWRITE  /  DELIVER</text>
+    <text x="0" y="330" class="mono muted meta">提炼  /  诊断  /  改写  /  交付</text>
 
     <g transform="translate(0 354)">
       <rect width="668" height="62" rx="7" fill="#0A0A0D" stroke="#1F1F24"/>
-      <text x="22" y="25" class="mono muted" font-size="12">AGENT INPUT</text>
-      <text x="22" y="46" class="mono text" font-size="14">$ use github.com/zihengniu9/CVOpenMic</text>
+      <text x="22" y="25" class="mono muted" font-size="12">智能体指令</text>
+      <text x="22" y="46" class="mono text" font-size="14">使用 GitHub：github.com/zihengniu9/CVOpenMic</text>
       <text x="634" y="38" class="mono accent" font-size="15" text-anchor="end">↗</text>
     </g>
   </g>
 
   <g transform="translate(820 52)">
     <rect width="516" height="416" rx="8" fill="#0A0A0D" stroke="#1F1F24"/>
-    <text x="24" y="31" class="mono text meta">RUN / resume.pipeline</text>
-    <text x="492" y="31" class="mono accent meta" text-anchor="end">READY</text>
+    <text x="24" y="31" class="mono text meta">运行 / 简历流水线</text>
+    <text x="492" y="31" class="mono accent meta" text-anchor="end">就绪</text>
     <line x1="0" y1="50" x2="516" y2="50" stroke="#1F1F24"/>
 
     <line x1="31" y1="77" x2="31" y2="339" stroke="#1F1F24"/>
@@ -53,46 +53,46 @@
     <g transform="translate(0 64)">
       <rect x="27" y="10" width="8" height="8" fill="#6ABFFF"/>
       <text x="54" y="17" class="mono muted" font-size="12">01</text>
-      <text x="88" y="17" class="mono text step">evidence-ledger</text>
+      <text x="88" y="17" class="mono text step">证据账本</text>
       <text x="88" y="39" class="muted detail">事实 / 推断 / 缺口 / 冲突</text>
-      <text x="492" y="17" class="mono muted detail" text-anchor="end">BUILT</text>
+      <text x="492" y="17" class="mono muted detail" text-anchor="end">已建立</text>
     </g>
 
     <g transform="translate(0 126)">
       <rect x="27" y="10" width="8" height="8" fill="#6ABFFF"/>
       <text x="54" y="17" class="mono muted" font-size="12">02</text>
-      <text x="88" y="17" class="mono text step">role-router</text>
+      <text x="88" y="17" class="mono text step">岗位路由</text>
       <text x="88" y="39" class="muted detail">证据对齐目标岗位语言</text>
-      <text x="492" y="17" class="mono muted detail" text-anchor="end">ROUTED</text>
+      <text x="492" y="17" class="mono muted detail" text-anchor="end">已路由</text>
     </g>
 
     <g transform="translate(0 188)">
       <rect x="27" y="10" width="8" height="8" fill="#6ABFFF"/>
       <text x="54" y="17" class="mono muted" font-size="12">03</text>
-      <text x="88" y="17" class="mono text step">critical-review</text>
+      <text x="88" y="17" class="mono text step">毒舌诊断</text>
       <text x="88" y="39" class="muted detail">问题分级与事实安全改写</text>
-      <text x="492" y="17" class="mono muted detail" text-anchor="end">PASSED</text>
+      <text x="492" y="17" class="mono muted detail" text-anchor="end">已完成</text>
     </g>
 
     <g transform="translate(0 250)">
       <rect x="27" y="10" width="8" height="8" fill="#050508" stroke="#6ABFFF"/>
       <text x="54" y="17" class="mono muted" font-size="12">04</text>
-      <text x="88" y="17" class="mono text step">bazi-lens</text>
+      <text x="88" y="17" class="mono text step">八字职业镜像</text>
       <text x="88" y="39" class="muted detail">职业环境与工作方式的文化反思</text>
-      <text x="492" y="17" class="mono accent detail" text-anchor="end">OPTIONAL</text>
+      <text x="492" y="17" class="mono accent detail" text-anchor="end">可选</text>
     </g>
 
     <g transform="translate(0 312)">
       <rect x="27" y="10" width="8" height="8" fill="#6ABFFF"/>
       <text x="54" y="17" class="mono muted" font-size="12">05</text>
-      <text x="88" y="17" class="mono text step">output</text>
-      <text x="88" y="39" class="muted detail">可编辑 Word + 同源 PDF 预览</text>
-      <text x="492" y="17" class="mono accent detail" text-anchor="end">WRITE</text>
+      <text x="88" y="17" class="mono text step">文件交付</text>
+      <text x="88" y="39" class="muted detail">可编辑 DOCX + 同源 PDF 预览</text>
+      <text x="492" y="17" class="mono accent detail" text-anchor="end">写入</text>
     </g>
 
     <line x1="0" y1="366" x2="516" y2="366" stroke="#1F1F24"/>
-    <text x="24" y="397" class="mono muted" font-size="12">artifact/</text>
-    <text x="92" y="397" class="mono text" font-size="12">resume.docx  ·  preview.pdf</text>
-    <text x="492" y="397" class="mono accent" font-size="12" text-anchor="end">TRACEABLE</text>
+    <text x="24" y="397" class="mono muted" font-size="12">交付文件/</text>
+    <text x="92" y="397" class="mono text" font-size="12">简历.DOCX  ·  预览.PDF</text>
+    <text x="492" y="397" class="mono accent" font-size="12" text-anchor="end">可追溯</text>
   </g>
 </svg>

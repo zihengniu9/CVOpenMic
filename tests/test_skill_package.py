@@ -95,6 +95,20 @@ class SkillPackageTests(unittest.TestCase):
             self.assertIn("#050508", svg)
             self.assertIn("#6ABFFF", svg)
 
+    def test_modules_visual_keeps_the_clear_seven_module_structure(self):
+        modules = (ROOT / "assets" / "modules.svg").read_text(encoding="utf-8")
+        for title in (
+            "材料解析与隐私",
+            "目标岗位路由",
+            "证据账本与评分",
+            "毒舌开麦诊断",
+            "事实安全改写",
+            "Word / PDF 交付",
+            "八字职业镜像",
+        ):
+            self.assertIn(title, modules)
+        self.assertIn("可选 · 不进评分 · 不写入简历", modules)
+
     def test_rubric_totals_one_hundred(self):
         rubric = (SKILL_DIR / "references" / "rubric.md").read_text(
             encoding="utf-8"

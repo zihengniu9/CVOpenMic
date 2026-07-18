@@ -28,14 +28,14 @@
   <!-- System header -->
   <g transform="translate(56 54)">
     <circle cx="4" cy="4" r="4" fill="#6ABFFF"/>
-    <text x="18" y="9" class="mono muted" font-size="12" font-weight="600">CVOPENMIC / OPTIONAL MODULE</text>
+    <text x="18" y="9" class="mono muted" font-size="12" font-weight="600">CVOpenMic / 可选模块</text>
   </g>
-  <text x="1344" y="63" text-anchor="end" class="mono cyan" font-size="13" font-weight="700">07 / CULTURAL LENS</text>
+  <text x="1344" y="63" text-anchor="end" class="mono cyan" font-size="13" font-weight="700">07 / 文化镜像</text>
   <path d="M56 88.5H1344" stroke="#1F1F24"/>
 
   <!-- Editorial lead -->
   <g transform="translate(56 122)">
-    <text y="18" class="mono lens" font-size="12" font-weight="700">TRADITIONAL-CULTURE CAREER REFLECTION</text>
+    <text y="18" class="mono lens" font-size="12" font-weight="700">传统文化职业反思</text>
     <text y="84" class="primary" font-size="54" font-weight="700" letter-spacing="-1.2">八字职业镜像</text>
     <text y="128" class="primary" font-size="23" font-weight="500">不是替你选工作，是多一面认识自己的镜子。</text>
     <text y="164" class="muted" font-size="15">传统符号只生成工作偏好假设；真实经历与岗位环境负责验证。</text>
@@ -43,7 +43,7 @@
 
   <g transform="translate(1081 126)">
     <rect x="0.5" y="0.5" width="263" height="112" rx="2" fill="#0A0A0D" stroke="#1F1F24"/>
-    <text x="20" y="28" class="mono muted" font-size="11" font-weight="700">OPERATING MODE</text>
+    <text x="20" y="28" class="mono muted" font-size="11" font-weight="700">运行方式</text>
     <text x="20" y="59" class="primary" font-size="16" font-weight="600">独立反思层</text>
     <path d="M20 75.5H243" stroke="#1F1F24"/>
     <circle cx="26" cy="93" r="3" fill="#6ABFFF"/>
@@ -52,12 +52,12 @@
 
   <!-- Six-stage pipeline -->
   <g transform="translate(56 326)">
-    <text y="-18" class="mono muted" font-size="11" font-weight="700">REFLECTION PIPELINE / 01—06</text>
+    <text y="-18" class="mono muted" font-size="11" font-weight="700">反思流程 / 01—06</text>
 
     <g>
       <rect x="0.5" y="0.5" width="189" height="158" rx="2" fill="#0A0A0D" stroke="#1F1F24"/>
       <path d="M1 1H189" stroke="#6ABFFF"/>
-      <text x="18" y="28" class="mono cyan" font-size="11" font-weight="700">01 / OPT-IN</text>
+      <text x="18" y="28" class="mono cyan" font-size="11" font-weight="700">01 / 主动开启</text>
       <text x="18" y="72" class="primary" font-size="20" font-weight="600">主动开启</text>
       <text x="18" y="105" class="muted" font-size="13">仅在本人明确提出时</text>
       <text x="18" y="128" class="muted" font-size="13">进入独立流程</text>
@@ -68,7 +68,7 @@
     <g transform="translate(216)">
       <rect x="0.5" y="0.5" width="189" height="158" rx="2" fill="#0A0A0D" stroke="#1F1F24"/>
       <path d="M1 1H189" stroke="#1F1F24"/>
-      <text x="18" y="28" class="mono muted" font-size="11" font-weight="700">02 / MINIMUM</text>
+      <text x="18" y="28" class="mono muted" font-size="11" font-weight="700">02 / 最小信息</text>
       <text x="18" y="72" class="primary" font-size="20" font-weight="600">最小出生信息</text>
       <text x="18" y="105" class="muted" font-size="13">日期 · 当地时间</text>
       <text x="18" y="128" class="muted" font-size="13">出生城市</text>
@@ -79,7 +79,7 @@
     <g transform="translate(432)">
       <rect x="0.5" y="0.5" width="189" height="158" rx="2" fill="#0A0A0D" stroke="#1F1F24"/>
       <path d="M1 1H189" stroke="#1F1F24"/>
-      <text x="18" y="28" class="mono muted" font-size="11" font-weight="700">03 / SOURCE</text>
+      <text x="18" y="28" class="mono muted" font-size="11" font-weight="700">03 / 来源核验</text>
       <text x="18" y="72" class="primary" font-size="20" font-weight="600">可靠排盘</text>
       <text x="18" y="105" class="muted" font-size="13">来源可追溯</text>
       <text x="18" y="128" class="muted" font-size="13">不凭记忆推算</text>
@@ -90,7 +90,7 @@
     <g transform="translate(648)">
       <rect x="0.5" y="0.5" width="189" height="158" rx="2" fill="#0A0A0D" stroke="#303441"/>
       <path d="M1 1H189" stroke="#929DBD"/>
-      <text x="18" y="28" class="mono lens" font-size="11" font-weight="700">04 / TRANSLATE</text>
+      <text x="18" y="28" class="mono lens" font-size="11" font-weight="700">04 / 符号转译</text>
       <text x="18" y="66" class="primary" font-size="20" font-weight="600">五类工作方式</text>
       <text x="18" y="91" class="primary" font-size="20" font-weight="600">镜头</text>
       <text x="18" y="121" class="muted" font-size="12">学习 · 表达 · 商业</text>
@@ -102,8 +102,8 @@
     <g transform="translate(864)">
       <rect x="0.5" y="0.5" width="189" height="158" rx="2" fill="#0A0A0D" stroke="#303441"/>
       <path d="M1 1H189" stroke="#929DBD"/>
-      <text x="18" y="28" class="mono lens" font-size="11" font-weight="700">05 / VERIFY</text>
-      <text x="18" y="66" class="primary" font-size="20" font-weight="600">简历 × JD</text>
+      <text x="18" y="28" class="mono lens" font-size="11" font-weight="700">05 / 现实验证</text>
+      <text x="18" y="66" class="primary" font-size="20" font-weight="600">简历 × 岗位说明</text>
       <text x="18" y="91" class="primary" font-size="20" font-weight="600">现实验证</text>
       <text x="18" y="121" class="muted" font-size="12">用经历找支持</text>
       <text x="18" y="142" class="muted" font-size="12">也保留反例</text>
@@ -114,7 +114,7 @@
     <g transform="translate(1080)">
       <rect x="0.5" y="0.5" width="207" height="158" rx="2" fill="#0A0A0D" stroke="#354968"/>
       <path d="M1 1H207" stroke="#6ABFFF"/>
-      <text x="18" y="28" class="mono cyan" font-size="11" font-weight="700">06 / MEMO</text>
+      <text x="18" y="28" class="mono cyan" font-size="11" font-weight="700">06 / 反思备忘</text>
       <text x="18" y="66" class="primary" font-size="20" font-weight="600">个人反思备忘</text>
       <text x="18" y="105" class="muted" font-size="12">相合信号 · 待验证</text>
       <text x="18" y="128" class="muted" font-size="12">可能存在的环境张力</text>
@@ -125,7 +125,7 @@
   <g transform="translate(56 546)">
     <rect x="0.5" y="0.5" width="1287" height="80" rx="2" fill="#0A0A0D" stroke="#1F1F24"/>
     <g transform="translate(20 0)">
-      <text y="30" class="mono cyan" font-size="11" font-weight="700">HARD BOUNDARIES</text>
+      <text y="30" class="mono cyan" font-size="11" font-weight="700">硬边界</text>
       <text y="54" class="muted" font-size="12">不可跨越的使用边界</text>
     </g>
     <path d="M194.5 1V79M413.5 1V79M632.5 1V79M851.5 1V79M1070.5 1V79" stroke="#1F1F24"/>
@@ -152,6 +152,6 @@
     </g>
   </g>
 
-  <text x="56" y="648" class="mono muted" font-size="10">TRADITIONAL-CULTURE REFERENCE / NOT A SCIENTIFIC ASSESSMENT</text>
-  <text x="1344" y="648" text-anchor="end" class="mono muted" font-size="10">CVOPENMIC · JIANLI KAIMAI</text>
+  <text x="56" y="648" class="mono muted" font-size="10">传统文化参考 / 非科学测评</text>
+  <text x="1344" y="648" text-anchor="end" class="mono muted" font-size="10">CVOpenMic · 简历开麦</text>
 </svg>

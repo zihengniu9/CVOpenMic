@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1400" height="720" viewBox="0 0 1400 720" role="img" aria-labelledby="title desc">
-  <title id="title">ONE ENGINE / ONE LENS 双轨框架</title>
+  <title id="title">一个证据引擎与一面文化镜像</title>
   <desc id="desc">证据引擎负责简历评分、改写和交付；文化镜像只生成反思备忘录，并由策略明确禁止回写评分、简历与招聘判断。</desc>
   <defs>
     <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
@@ -27,60 +27,60 @@
 
   <g id="header">
     <rect x="72" y="45" width="28" height="1" fill="#6ABFFF"/>
-    <text x="112" y="50" class="eyebrow mono">SYSTEM / DECISION ARCHITECTURE</text>
-    <text x="72" y="111" class="heading">ONE ENGINE / ONE LENS</text>
+    <text x="112" y="50" class="eyebrow mono">CVOPENMIC / 决策架构</text>
+    <text x="72" y="111" class="heading">一个证据引擎 / 一面文化镜像</text>
     <text x="72" y="145" class="sub">一个证据引擎负责判断与交付；一个文化镜像负责提出可验证的自我反思假设。</text>
 
     <rect x="1135.5" y="54.5" width="192" height="35" rx="6" fill="#0A0A0D" stroke="#1F1F24"/>
     <circle cx="1160" cy="72" r="3" fill="#6ABFFF"/>
-    <text x="1174" y="76" class="footer mono">BOUNDARY ENFORCED</text>
+    <text x="1174" y="76" class="footer mono">边界策略已启用</text>
   </g>
 
   <g id="evidence-engine">
     <rect x="72.5" y="184.5" width="1255" height="198" rx="16" fill="#0A0A0D" stroke="#1F1F24"/>
     <rect x="73" y="185" width="4" height="197" fill="#6ABFFF"/>
 
-    <text x="104" y="221" class="railId mono">ENGINE / 01 · EVIDENCE ONLY</text>
+    <text x="104" y="221" class="railId mono">主轨 / 01 · 仅限现实证据</text>
     <text x="104" y="252" class="railTitle">证据引擎</text>
     <text x="104" y="278" class="railBody">唯一允许进入评分、简历改写和文件交付的主轨。</text>
 
     <g transform="translate(416 218)">
       <g>
         <rect x="0.5" y="0.5" width="154" height="98" rx="10" fill="#050508" stroke="#1F1F24"/>
-        <text x="16" y="28" class="nodeMeta mono">01 / SOURCE</text>
-        <text x="16" y="57" class="nodeTitle mono">ledger</text>
-        <text x="16" y="79" class="nodeMeta mono">provenance + gaps</text>
+        <text x="16" y="28" class="nodeMeta mono">01 / 来源</text>
+        <text x="16" y="57" class="nodeTitle">证据账本</text>
+        <text x="16" y="79" class="nodeMeta">来源与缺口</text>
       </g>
       <line x1="155" y1="49.5" x2="178" y2="49.5" stroke="#6ABFFF" opacity=".6"/>
       <circle cx="166.5" cy="49.5" r="2.5" fill="#6ABFFF"/>
       <g transform="translate(178 0)">
         <rect x="0.5" y="0.5" width="154" height="98" rx="10" fill="#050508" stroke="#1F1F24"/>
-        <text x="16" y="28" class="nodeMeta mono">02 / TARGET</text>
-        <text x="16" y="57" class="nodeTitle mono">router</text>
-        <text x="16" y="79" class="nodeMeta mono">role relevance</text>
+        <text x="16" y="28" class="nodeMeta mono">02 / 目标</text>
+        <text x="16" y="57" class="nodeTitle">岗位路由</text>
+        <text x="16" y="79" class="nodeMeta">匹配岗位重点</text>
       </g>
       <line x1="332" y1="49.5" x2="355" y2="49.5" stroke="#6ABFFF" opacity=".6"/>
       <circle cx="343.5" cy="49.5" r="2.5" fill="#6ABFFF"/>
       <g transform="translate(355 0)">
         <rect x="0.5" y="0.5" width="154" height="98" rx="10" fill="#050508" stroke="#1F1F24"/>
-        <text x="16" y="28" class="nodeMeta mono">03 / JUDGE</text>
-        <text x="16" y="57" class="nodeTitle mono">scorecard</text>
-        <text x="16" y="79" class="nodeMeta mono">evidence score</text>
+        <text x="16" y="28" class="nodeMeta mono">03 / 判断</text>
+        <text x="16" y="57" class="nodeTitle">评分量表</text>
+        <text x="16" y="79" class="nodeMeta">仅现实证据</text>
       </g>
       <line x1="509" y1="49.5" x2="532" y2="49.5" stroke="#6ABFFF" opacity=".6"/>
       <circle cx="520.5" cy="49.5" r="2.5" fill="#6ABFFF"/>
       <g transform="translate(532 0)">
         <rect x="0.5" y="0.5" width="154" height="98" rx="10" fill="#050508" stroke="#1F1F24"/>
-        <text x="16" y="28" class="nodeMeta mono">04 / EDIT</text>
-        <text x="16" y="57" class="nodeTitle mono">rewrite</text>
-        <text x="16" y="79" class="nodeMeta mono">fact-safe bullets</text>
+        <text x="16" y="28" class="nodeMeta mono">04 / 改写</text>
+        <text x="16" y="57" class="nodeTitle">安全改写</text>
+        <text x="16" y="79" class="nodeMeta">不编造事实</text>
       </g>
       <line x1="686" y1="49.5" x2="709" y2="49.5" stroke="#6ABFFF" opacity=".6"/>
       <circle cx="697.5" cy="49.5" r="2.5" fill="#6ABFFF"/>
       <g transform="translate(709 0)">
         <rect x="0.5" y="0.5" width="154" height="98" rx="10" fill="#050508" stroke="#1F1F24"/>
-        <text x="16" y="28" class="nodeMeta mono">05 / OUTPUT</text>
-        <text x="16" y="57" class="nodeTitle mono">deliver</text>
+        <text x="16" y="28" class="nodeMeta mono">05 / 输出</text>
+        <text x="16" y="57" class="nodeTitle">文件交付</text>
         <text x="16" y="79" class="nodeMeta mono">DOCX + PDF</text>
       </g>
     </g>
@@ -90,61 +90,61 @@
     <rect x="72.5" y="410.5" width="845" height="247" rx="16" fill="#0A0A0D" stroke="#1F1F24"/>
     <line x1="73" y1="411" x2="73" y2="657" stroke="#6ABFFF" stroke-width="4" stroke-dasharray="7 7"/>
 
-    <text x="104" y="447" class="railId mono">LENS / 02 · OPTIONAL REFLECTION</text>
-    <text x="104" y="478" class="railTitle">文化镜像</text>
+    <text x="104" y="447" class="railId mono">支轨 / 02 · 可选反思</text>
+    <text x="104" y="478" class="railTitle">八字职业镜像</text>
     <text x="104" y="504" class="railBody">不预测职业结果，只把传统命理语言翻译成待验证的工作方式假设。</text>
 
     <g transform="translate(104 532)">
       <g>
         <rect x="0.5" y="0.5" width="123" height="67" rx="9" fill="#050508" stroke="#1F1F24"/>
-        <text x="12" y="23" class="nodeMeta mono">01 / INPUT</text>
-        <text x="12" y="46" class="nodeTitle mono">birth context</text>
+        <text x="12" y="23" class="nodeMeta mono">01 / 输入</text>
+        <text x="12" y="46" class="nodeTitle">最小出生信息</text>
       </g>
       <line x1="123" y1="33.5" x2="139" y2="33.5" stroke="#6ABFFF" opacity=".45"/>
       <g transform="translate(139 0)">
         <rect x="0.5" y="0.5" width="136" height="67" rx="9" fill="#050508" stroke="#1F1F24"/>
-        <text x="12" y="23" class="nodeMeta mono">02 / MAP</text>
-        <text x="12" y="41" class="nodeTitle mono"><tspan x="12">cultural</tspan><tspan x="12" dy="16">vocabulary</tspan></text>
+        <text x="12" y="23" class="nodeMeta mono">02 / 映射</text>
+        <text x="12" y="46" class="nodeTitle">传统文化词汇</text>
       </g>
       <line x1="275" y1="33.5" x2="291" y2="33.5" stroke="#6ABFFF" opacity=".45"/>
       <g transform="translate(291 0)">
         <rect x="0.5" y="0.5" width="151" height="67" rx="9" fill="#050508" stroke="#1F1F24"/>
-        <text x="12" y="23" class="nodeMeta mono">03 / HYPOTHESIS</text>
-        <text x="12" y="41" class="nodeTitle mono"><tspan x="12">work-style</tspan><tspan x="12" dy="16">hypotheses</tspan></text>
+        <text x="12" y="23" class="nodeMeta mono">03 / 假设</text>
+        <text x="12" y="46" class="nodeTitle">工作方式假设</text>
       </g>
       <line x1="442" y1="33.5" x2="458" y2="33.5" stroke="#6ABFFF" opacity=".45"/>
       <g transform="translate(458 0)">
         <rect x="0.5" y="0.5" width="123" height="67" rx="9" fill="#050508" stroke="#1F1F24"/>
-        <text x="12" y="23" class="nodeMeta mono">04 / VERIFY</text>
-        <text x="12" y="46" class="nodeTitle mono">reality check</text>
+        <text x="12" y="23" class="nodeMeta mono">04 / 验证</text>
+        <text x="12" y="46" class="nodeTitle">现实验证</text>
       </g>
       <line x1="581" y1="33.5" x2="597" y2="33.5" stroke="#6ABFFF" opacity=".45"/>
       <g transform="translate(597 0)">
         <rect x="0.5" y="0.5" width="136" height="67" rx="9" fill="#050508" stroke="#1F1F24"/>
-        <text x="12" y="23" class="nodeMeta mono">05 / OUTPUT</text>
-        <text x="12" y="41" class="nodeTitle mono"><tspan x="12">reflection</tspan><tspan x="12" dy="16">memo</tspan></text>
+        <text x="12" y="23" class="nodeMeta mono">05 / 输出</text>
+        <text x="12" y="46" class="nodeTitle">反思备忘</text>
       </g>
       <line x1="0" y1="87.5" x2="733" y2="87.5" stroke="#1F1F24" stroke-dasharray="5 7"/>
       <rect x="592.5" y="77.5" width="140" height="21" fill="#0A0A0D" stroke="#1F1F24"/>
-      <text x="662.5" y="92" text-anchor="middle" class="footer mono">NO WRITE-BACK</text>
+      <text x="662.5" y="92" text-anchor="middle" class="footer mono">禁止回写</text>
     </g>
   </g>
 
   <g id="policy">
     <rect x="945.5" y="410.5" width="382" height="247" rx="16" fill="#0A0A0D" stroke="#1F1F24"/>
-    <text x="977" y="447" class="railId mono">POLICY / GUARDRAILS.YAML</text>
+    <text x="977" y="447" class="railId mono">策略 / 边界配置</text>
     <line x1="977" y1="465.5" x2="1296" y2="465.5" stroke="#1F1F24"/>
 
-    <text x="977" y="497" class="policy mono">policy:</text>
-    <text x="997" y="526" class="policy mono"><tspan class="policyKey">scoring_source:</tspan><tspan> evidence_only</tspan></text>
-    <text x="997" y="555" class="policy mono"><tspan class="policyKey">bazi_to_score:</tspan><tspan> false</tspan></text>
-    <text x="997" y="584" class="policy mono"><tspan class="policyKey">bazi_to_resume:</tspan><tspan> false</tspan></text>
-    <text x="997" y="613" class="policy mono"><tspan class="policyKey">hiring_decision:</tspan><tspan> false</tspan></text>
+    <text x="977" y="497" class="policy mono">边界策略：</text>
+    <text x="997" y="526" class="policy"><tspan class="policyKey">评分来源：</tspan><tspan>仅现实证据</tspan></text>
+    <text x="997" y="555" class="policy"><tspan class="policyKey">八字进入评分：</tspan><tspan>禁止</tspan></text>
+    <text x="997" y="584" class="policy"><tspan class="policyKey">八字写入简历：</tspan><tspan>禁止</tspan></text>
+    <text x="997" y="613" class="policy"><tspan class="policyKey">用于招聘决策：</tspan><tspan>禁止</tspan></text>
 
     <rect x="1269" y="485" width="7" height="7" fill="#6ABFFF"/>
-    <text x="1296" y="494" text-anchor="end" class="footer mono">ACTIVE</text>
+    <text x="1296" y="494" text-anchor="end" class="footer mono">已启用</text>
   </g>
 
-  <text x="72" y="692" class="footer mono">ENGINE OUTPUT: SCORE + RESUME + DOCX/PDF</text>
-  <text x="1328" y="692" text-anchor="end" class="footer mono">LENS OUTPUT: REFLECTION MEMO ONLY</text>
+  <text x="72" y="692" class="footer mono">主轨输出：评分 + 简历 + DOCX/PDF</text>
+  <text x="1328" y="692" text-anchor="end" class="footer mono">支轨输出：仅反思备忘</text>
 </svg>
